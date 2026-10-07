@@ -1,0 +1,43 @@
+<svg viewBox="0 0 426 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    
+    <linearGradient id="gradA" gradientUnits="objectBoundingBox" x1="0.75" y1="0.25" x2="0.25" y2="0.75">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.94"></stop>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.19"></stop>
+    </linearGradient>
+    <linearGradient id="gradB" gradientUnits="objectBoundingBox" x1="0.25" y1="0.75" x2="0.75" y2="0.25">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.94"></stop>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.19"></stop>
+    </linearGradient>
+  </defs>
+
+  
+  <polygon points="213,0 266.25,37.55 213,75.1 159.75,37.55" fill="url(#gradA)"></polygon>
+
+  
+  <polygon points="159.75,37.55 213,75.1 159.75,112.65 106.5,75.1" fill="url(#gradA)"></polygon>
+  <polygon points="266.25,37.55 319.5,75.1 266.25,112.65 213,75.1" fill="url(#gradB)"></polygon>
+
+  
+  <polygon points="106.5,75.1 159.75,112.65 106.5,150.19 53.25,112.65" fill="url(#gradA)"></polygon>
+  <polygon points="213,75.1 266.25,112.65 213,150.19 159.75,112.65" fill="url(#gradB)"></polygon>
+  <polygon points="319.5,75.1 372.75,112.65 319.5,150.19 266.25,112.65" fill="url(#gradA)"></polygon>
+
+  
+  <polygon points="53.25,112.65 106.5,150.19 53.25,187.74 0,150.19" fill="url(#gradA)"></polygon>
+  <polygon points="159.75,112.65 213,150.19 159.75,187.74 106.5,150.19" fill="url(#gradB)"></polygon>
+  <polygon points="266.25,112.65 319.5,150.19 266.25,187.74 213,150.19" fill="url(#gradA)"></polygon>
+  <polygon points="372.75,112.65 426,150.19 372.75,187.74 319.5,150.19" fill="url(#gradB)"></polygon>
+
+  
+  <polygon points="106.5,150.19 159.75,187.74 106.5,225.29 53.25,187.74" fill="url(#gradB)"></polygon>
+  <polygon points="213,150.19 266.25,187.74 213,225.29 159.75,187.74" fill="url(#gradA)"></polygon>
+  <polygon points="319.5,150.19 372.75,187.74 319.5,225.29 266.25,187.74" fill="url(#gradB)"></polygon>
+
+  
+  <polygon points="159.75,187.74 213,225.29 159.75,262.84 106.5,225.29" fill="url(#gradA)"></polygon>
+  <polygon points="266.25,187.74 319.5,225.29 266.25,262.84 213,225.29" fill="url(#gradB)"></polygon>
+
+  
+  <polygon points="213,225.29 266.25,262.84 213,300.39 159.75,262.84" fill="url(#gradB)"></polygon>
+</svg>

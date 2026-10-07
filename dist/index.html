@@ -1,0 +1,2245 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <script src="./js/demo-modal.js" defer></script>
+    <script src="./js/main.js" defer></script>
+    <script src="./js/nav-dropdown.js" defer></script>
+</head>
+
+<body class="min-h-screen">
+    <div class="min-h-screen bg-white relative flex flex-col w-full">
+        <!-- ===== HEADER ===== -->
+        <header class="sticky top-0 z-50 bg-white w-full">
+            <div
+                class="max-w-[1260px] mx-auto px-5 sm:px-6 lg:px-10 h-[70px] lg:h-[80px] flex items-center justify-between gap-4 relative z-50 bg-white">
+                <a href="index.html" class="shrink-0 lg:mr-4"><img src="./img/logo/grey-logo.svg" alt="PMEX Logo"
+                        class="h-[40px] sm:h-[45px] lg:h-[52px] w-auto"></a>
+                <ul
+                    class="hidden lg:flex absolute left-1/2 -translate-x-1/2 gap-4 xl:gap-8 text-sm text-[#676767] whitespace-nowrap">
+                    <li><a href="platform.html"
+                            class="text-[#959085] hover:text-[#505050] transition-colors">Platform</a></li>
+                    <li class="relative nav-dropdown">
+                        <a href="specialties.html"
+                            class="flex items-center gap-1 text-[#959085] hover:text-[#505050] transition-colors">Our
+                            Specialties
+                            <svg class="w-4 h-4 transition-transform duration-200 nav-arrow inline-block" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </a>
+                        <div
+                            class="absolute top-[35px] left-0 opacity-0 invisible pointer-events-none transition-all duration-200 bg-white nav-dropdown-panel flex border border-[#AAD39C] rounded-xl p-6 gap-12 w-[540px] z-10 shadow-lg">
+                            <div class="flex flex-col gap-3 flex-1">
+                                <a href="physical-therapy.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Physical
+                                    Therapy</a>
+                                <a href="psychiatry.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Psychiatry</a>
+                                <a href="internal-medicine.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Internal
+                                    Medicine</a>
+                                <a href="chiropractic.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Chiropractic</a>
+                                <a href="dental-billing.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Dental Billing</a>
+                            </div>
+                            <div class="flex flex-col gap-3 flex-1">
+                                <a href="nephrology.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Nephrology</a>
+                                <a href="cardiology.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Cardiology</a>
+                                <a href="gynecology.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Gynecology</a>
+                                <a href="anesthesiology.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Anesthesiology</a>
+                                <a href="ophthalmology.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Ophthalmology</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="relative nav-dropdown">
+                        <a href="services.html"
+                            class="flex items-center gap-1 text-[#959085] hover:text-[#505050] transition-colors">Services
+                            <svg class="w-4 h-4 transition-transform duration-200 nav-arrow inline-block" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </a>
+                        <div
+                            class="absolute top-[35px] left-0 opacity-0 invisible pointer-events-none transition-all duration-200 bg-white nav-dropdown-panel flex border border-[#AAD39C] rounded-xl p-6 gap-12 w-[580px] z-10 shadow-lg">
+                            <div class="flex flex-col gap-3 flex-1">
+                                <a href="credentialing-enrollment.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Credentialing &
+                                    Enrollment</a>
+                                <a href="medical-billing-services.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Medical Billing
+                                    Services</a>
+                                <a href="revenue-cycle-management.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Revenue Cycle
+                                    Management</a>
+                                <a href="denial-management-services.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Denial Management
+                                    Services</a>
+                                <a href="account-receivable-management.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Account Receivable
+                                    Management</a>
+                                <a href="hospital-billing-services.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Hospital Billing
+                                    Services</a>
+                            </div>
+                            <div class="flex flex-col gap-3 flex-1">
+                                <a href="dme-pos-services.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">DME/POS
+                                    Services</a>
+                                <a href="physician-billing-services.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Physician Billing
+                                    Services</a>
+                                <a href="outsource-medical-billing-services.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Outsource Medical
+                                    Billing Services</a>
+                                <a href="mental-health-billing.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Mental Health
+                                    Billing</a>
+                                <a href="cpap-billing.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">CPAP Billing</a>
+                                <a href="front-desk-services-remote.html"
+                                    class="text-gray-600 hover:text-black transition-colors py-1">Front desk
+                                    services (Remote)</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="relative nav-dropdown">
+                        <a href="resources.html" class="flex items-center gap-1">Resources
+                            <svg class="w-4 h-4 transition-transform duration-200 nav-arrow inline-block" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </a>
+                        <div
+                            class="absolute top-[35px] -left-[130px] opacity-0 invisible pointer-events-none transition-all duration-200 bg-white nav-dropdown-panel flex border border-[#AAD39C] rounded-xl p-6 gap-8 w-[700px] z-10 shadow-lg">
+                            <div class="flex flex-col gap-3 min-w-[150px]">
+                                <h3 class="text-[#AAD39C] font-semibold border-b border-gray-200 pb-2">Insights</h3>
+                                <a href="resources.html?filter=Insights"
+                                    class="text-gray-600 hover:text-black">Insights</a>
+                                <a href="resources.html?filter=Customer Stories"
+                                    class="text-gray-600 hover:text-black">Customer Stories</a>
+                                <a href="resources.html?filter=Tools" class="text-gray-600 hover:text-black">Tools</a>
+                                <a href="resources.html?filter=Guides" class="text-gray-600 hover:text-black">Guides</a>
+                            </div>
+                            <div class="flex gap-4">
+                                <a href="customers.html" class="flex flex-col gap-2 w-[220px]">
+                                    <div class="relative rounded-xl overflow-hidden h-[150px]">
+                                        <img src="./img/1img.webp" alt="Customer Story"
+                                            class="w-full h-full object-cover" />
+                                        <span
+                                            class="absolute bottom-3 left-3 bg-white text-sm px-3 py-1 rounded-full">Customer
+                                            Story</span>
+                                    </div>
+                                    <p class="text-gray-700 text-sm">How a Multi-State ABA Provider Increased Its
+                                        First
+                                        Pass Paid Rate by 15%</p>
+                                </a>
+                                <a href="#" class="flex flex-col gap-2 w-[220px]">
+                                    <div class="relative rounded-xl overflow-hidden h-[150px] bg-gray-100">
+                                        <img src="./img/2img.webp" alt="Tool" class="w-full h-full object-cover" />
+                                        <span
+                                            class="absolute bottom-3 left-3 bg-white text-sm px-3 py-1 rounded-full">Tool</span>
+                                    </div>
+                                    <p class="text-gray-700 text-sm">Revenue Leakage Diagnostic</p>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="customers.html"
+                            class="text-[#959085] hover:text-[#505050] transition-colors">Customers</a></li>
+                    <li class="relative nav-dropdown">
+                        <a href="#" class="flex items-center gap-1">Company
+                            <svg class="w-4 h-4 transition-transform duration-200 nav-arrow inline-block" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </a>
+                        <div
+                            class="absolute top-[35px] left-0 opacity-0 invisible pointer-events-none transition-all duration-200 flex-col bg-white nav-dropdown-panel flex border border-[#AAD39C] rounded-xl p-6 gap-3 w-[200px] z-10 shadow-lg">
+                            <h3 class="text-[#AAD39C] font-semibold border-b border-gray-200 pb-2">Company</h3>
+                            <a href="#" class="text-gray-600 hover:text-black">Careers</a>
+                            <a href="#" class="text-gray-600 hover:text-black">News and Press</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="hidden lg:flex gap-2 text-[13px]">
+                    <li><a href="login.html"
+                            class="px-6 py-2.5 rounded-full font-normal bg-[#EEF0E8] text-[#505050]">Login</a>
+                    </li>
+                    <li><a href="demo.html"
+                            class="bg-[#AAD39C] text-[#464A25] px-6 py-2.5 rounded-full font-normal">Book a
+                            demo</a></li>
+                </ul>
+
+                <!-- Hamburger Button -->
+                <button id="hamburger-btn"
+                    class="lg:hidden flex flex-col justify-between w-6 h-[14px] z-50 cursor-pointer border-none bg-transparent p-0 outline-none">
+                    <span class="w-full h-[2px] bg-[#505050] transition-all duration-300 origin-center"></span>
+                    <span class="w-full h-[2px] bg-[#505050] transition-all duration-300"></span>
+                    <span class="w-full h-[2px] bg-[#505050] transition-all duration-300 origin-center"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Menu Overlay -->
+            <div id="mobile-menu"
+                class="hidden fixed inset-0 z-40 bg-white flex flex-col pt-[90px] px-6 sm:px-10 pb-10 overflow-y-auto">
+                <nav class="flex flex-col gap-6 font-normal mb-8">
+                    <a href="platform.html"
+                        class="text-[18px] border-b border-[#AAD39C] pb-2 font-medium text-[#505050]">Platform</a>
+
+                    <div class="flex flex-col gap-2">
+                        <span class="text-[18px] font-semibold text-[#505050]">Our Specialties</span>
+                        <div class="pl-4 flex flex-col gap-2 border-l border-[#AAD39C]">
+                            <a href="physical-therapy.html" class="text-[13px] text-[#676767]">Physical Therapy</a>
+                            <a href="psychiatry.html" class="text-[13px] text-[#676767]">Psychiatry</a>
+                            <a href="internal-medicine.html" class="text-[13px] text-[#676767]">Internal Medicine</a>
+                            <a href="chiropractic.html" class="text-[13px] text-[#676767]">Chiropractic</a>
+                            <a href="dental-billing.html" class="text-[13px] text-[#676767]">Dental Billing</a>
+                            <a href="nephrology.html" class="text-[13px] text-[#676767]">Nephrology</a>
+                            <a href="cardiology.html" class="text-[13px] text-[#676767]">Cardiology</a>
+                            <a href="gynecology.html" class="text-[13px] text-[#676767]">Gynecology</a>
+                            <a href="anesthesiology.html" class="text-[13px] text-[#676767]">Anesthesiology</a>
+                            <a href="ophthalmology.html" class="text-[13px] text-[#676767]">Ophthalmology</a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <span class="text-[18px] font-semibold text-[#505050]">Services</span>
+                        <div class="pl-4 flex flex-col gap-2 border-l border-[#AAD39C]">
+                            <a href="credentialing-enrollment.html" class="text-[13px] text-[#676767]">Credentialing &
+                                Enrollment</a>
+                            <a href="medical-billing-services.html" class="text-[13px] text-[#676767]">Medical Billing
+                                Services</a>
+                            <a href="revenue-cycle-management.html" class="text-[13px] text-[#676767]">Revenue Cycle
+                                Management</a>
+                            <a href="denial-management-services.html" class="text-[13px] text-[#676767]">Denial
+                                Management Services</a>
+                            <a href="account-receivable-management.html" class="text-[13px] text-[#676767]">Account
+                                Receivable Management</a>
+                            <a href="hospital-billing-services.html" class="text-[13px] text-[#676767]">Hospital Billing
+                                Services</a>
+                            <a href="dme-pos-services.html" class="text-[13px] text-[#676767]">DME/POS Services</a>
+                            <a href="physician-billing-services.html" class="text-[13px] text-[#676767]">Physician
+                                Billing Services</a>
+                            <a href="outsource-medical-billing-services.html"
+                                class="text-[13px] text-[#676767]">Outsource Medical Billing Services</a>
+                            <a href="mental-health-billing.html" class="text-[13px] text-[#676767]">Mental Health
+                                Billing</a>
+                            <a href="cpap-billing.html" class="text-[13px] text-[#676767]">CPAP Billing</a>
+                            <a href="front-desk-services-remote.html" class="text-[13px] text-[#676767]">Front desk
+                                services (Remote)</a>
+                        </div>
+                    </div>
+
+                    <a href="customers.html"
+                        class="text-[18px] border-b border-[#AAD39C] pb-2 pt-2 font-medium text-[#505050]">Customers</a>
+
+                    <div class="flex flex-col gap-2">
+                        <span class="text-[18px] font-semibold text-[#505050]">Resources</span>
+                        <div class="pl-4 flex flex-col gap-2 border-l border-[#AAD39C]">
+                            <a href="resources.html?filter=Insights" class="text-[13px] text-[#676767]">Insights</a>
+                            <a href="resources.html?filter=Customer Stories" class="text-[13px] text-[#676767]">Customer
+                                Stories</a>
+                            <a href="resources.html?filter=Tools" class="text-[13px] text-[#676767]">Tools</a>
+                            <a href="resources.html?filter=Guides" class="text-[13px] text-[#676767]">Guides</a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="mt-auto flex flex-col gap-3">
+                    <a href="login.html"
+                        class="w-full text-center py-3 rounded-full bg-[#EEF0E8] text-[#505050] font-medium">Login</a>
+                    <a href="demo.html"
+                        class="w-full text-center py-3 rounded-full bg-[#AAD39C] text-[#2e4a25] font-medium">Book a
+                        demo</a>
+                </div>
+            </div>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', () => {
+                    const btn = document.getElementById('hamburger-btn');
+                    const menu = document.getElementById('mobile-menu');
+                    if (btn && menu) {
+                        btn.addEventListener('click', () => {
+                            menu.classList.toggle('hidden');
+                            document.body.classList.toggle('overflow-hidden');
+                            const spans = btn.querySelectorAll('span');
+                            if (spans.length === 3) {
+                                if (menu.classList.contains('hidden')) {
+                                    spans[0].style.transform = '';
+                                    spans[1].style.opacity = '1';
+                                    spans[2].style.transform = '';
+                                } else {
+                                    spans[0].style.transform = 'translateY(6px) rotate(45deg)';
+                                    spans[1].style.opacity = '0';
+                                    spans[2].style.transform = 'translateY(-6px) rotate(-45deg)';
+                                }
+                            }
+                        });
+                    }
+                });
+            </script>
+        </header>
+
+        <!-- Hero -->
+        <section class="relative w-full py-32 flex items-center">
+            <div class="max-w-[1260px] mx-auto w-full px-5 sm:px-6 lg:px-10">
+
+                <!-- gradient blob -->
+                <div
+                    class="absolute inset-0 pointer-events-none z-0 bg-[radial-gradient(ellipse_at_right_bottom,#4a8c3f_0%,#AAD39C_15%,#d4edcc_35%,transparent_55%)]">
+                </div>
+
+                <div class="relative z-10 w-full">
+                    <!-- Claims -->
+                    <p class="text-[13px] sm:text-sm mb-4 sm:mb-6 text-[#505050]">Claims processed to date: <span
+                            class="text-[#AAD39C] font-semibold">2,700,802</span></p>
+
+                    <!-- Heading -->
+                    <h1 class="text-5xl font-normal leading-tight mb-5 sm:mb-6 text-[#505050]">
+                        Healthcare revenue infrastructure,<br class="hidden sm:block">
+                        <span class="text-[#959085]">rebuilt from first principles</span>
+                    </h1>
+
+                    <!-- Description -->
+                    <p
+                        class="text-gray-500 text-[16px] sm:text-md max-w-full sm:max-w-[550px] mb-8 sm:mb-10 leading-relaxed">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis beatae commodi aliquam ad
+                        adipisci maiores error corporis debitis placeat recusandae, ipsa blanditiis ipsam suscipit
+                        facere dolorum.
+                    </p>
+
+                    <!-- Buttons -->
+                    <div class="flex flex-wrap items-center gap-4 sm:gap-6 text-sm">
+                        <a href="demo.html" class="bg-[#AAD39C] text-[#464A25] px-6 py-2 rounded-full font-normal">Book
+                            a
+                            demo</a>
+                        <a href="#" class="text-[#3F9A4B] font-normal hover:underline">Run a revenue audit â†’</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="border-t border-b border-[#AAD39C] py-6">
+            <div class="marquee-container">
+                <div class="flex animate-marquee whitespace-nowrap">
+                    <div class="flex items-center gap-16 shrink-0 pr-16">
+                        <img src="./img/marquee logo/advancedmd.svg" alt="AdvancedMD"
+                            class="h-6 sm:h-7 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Allscripts.svg" alt="Allscripts"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/athenahealth.svg" alt="athenahealth"
+                            class="h-5 sm:h-6 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Cerner.svg" alt="Cerner"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/ChiroTouch.svg" alt="ChiroTouch"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/dentrix-logo-1400.svg" alt="Dentrix"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/DrChrono.svg" alt="DrChrono"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/eclinicalworks.svg" alt="eClinicalWorks"
+                            class="h-5 sm:h-6 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/ECLIPSE.svg" alt="ECLIPSE"
+                            class="h-7 sm:h-8 max-w-[140px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/epic.svg" alt="Epic"
+                            class="h-5 sm:h-6 max-w-[100px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Genesis-Chiropractic-Software-Logo.svg" alt="Genesis Chiropractic"
+                            class="h-7 sm:h-8 max-w-[150px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Jane.svg" alt="Jane App"
+                            class="h-7 sm:h-8 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Jopari.svg" alt="Jopari"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Kareo.svg" alt="Kareo"
+                            class="h-6 sm:h-7 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/modmed.svg" alt="ModMed"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/NexGen.svg" alt="NextGen"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/office-ally.svg" alt="Office Ally"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/optum.svg" alt="Optum"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Practice-Fusion.svg" alt="Practice Fusion"
+                            class="h-6 sm:h-7 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/tebra.svg" alt="Tebra"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                    </div>
+                    <div class="flex items-center gap-16 shrink-0 pr-16" aria-hidden="true">
+                        <img src="./img/marquee logo/advancedmd.svg" alt="AdvancedMD"
+                            class="h-6 sm:h-7 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Allscripts.svg" alt="Allscripts"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/athenahealth.svg" alt="athenahealth"
+                            class="h-5 sm:h-6 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Cerner.svg" alt="Cerner"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/ChiroTouch.svg" alt="ChiroTouch"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/dentrix-logo-1400.svg" alt="Dentrix"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/DrChrono.svg" alt="DrChrono"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/eclinicalworks.svg" alt="eClinicalWorks"
+                            class="h-5 sm:h-6 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/ECLIPSE.svg" alt="ECLIPSE"
+                            class="h-7 sm:h-8 max-w-[140px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/epic.svg" alt="Epic"
+                            class="h-5 sm:h-6 max-w-[100px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Genesis-Chiropractic-Software-Logo.svg" alt="Genesis Chiropractic"
+                            class="h-7 sm:h-8 max-w-[150px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Jane.svg" alt="Jane App"
+                            class="h-7 sm:h-8 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Jopari.svg" alt="Jopari"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Kareo.svg" alt="Kareo"
+                            class="h-6 sm:h-7 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/modmed.svg" alt="ModMed"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/NexGen.svg" alt="NextGen"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/office-ally.svg" alt="Office Ally"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/optum.svg" alt="Optum"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Practice-Fusion.svg" alt="Practice Fusion"
+                            class="h-6 sm:h-7 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/tebra.svg" alt="Tebra"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Revenue Gap Section -->
+        <section class="bg-[#EEF0E8] border-b border-[#AAD39C] py-10 lg:py-15">
+            <div class="max-w-[1260px] mx-auto w-full px-5 sm:px-6 lg:px-10">
+                <!-- Tag -->
+                <p class="text-xs sm:text-sm text-gray-500 tracking-widest uppercase mb-3 sm:mb-4">Why Practice
+                    Management Experts</p>
+
+                <!-- Heading -->
+                <h2
+                    class="text-[26px] sm:text-[32px] lg:text-[38px] font-normal text-[#959085] max-w-[900px] leading-tight mb-8 lg:mb-12">
+                    Trusted medical billing expertise built to strengthen your practice
+                </h2>
+
+                <!-- Two Column Text -->
+                <div
+                    class="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-16 text-gray-500 text-[14px] sm:text-[15px] leading-relaxed">
+                    <!-- Left -->
+                    <div class="flex flex-col gap-4">
+                        <p>Choosing the right partner for your medical billing and practice management needs is crucial
+                            to the success of your healthcare practice. At PMEX - Practice Management Experts, we bring
+                            years of industry expertise and a commitment to delivering exceptional service.</p>
+                        <p>With PMEX, you can confidently focus on patient care while we handle the complexities of
+                            billing, coding, and operational management.</p>
+                        <ul class="list-disc pl-5 flex flex-col gap-1">
+                            <li>Expertise and Experience
+                            </li>
+                            <li>Specialty Support
+                            </li>
+                            <li>Compliance and Security
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Right -->
+                    <div class="flex flex-col gap-4">
+                        <p>Our team is dedicated to understanding the unique challenges of your practice, offering
+                            personalized solutions that optimize efficiency and maximize revenue. We prioritize
+                            transparency and accuracy in financial reporting, ensuring your practice remains financially
+                            healthy and compliant with industry standards.</p>
+                        <p>Partner with PMEX for expert healthcare administration and elevate your practice to new
+                            heights.
+                            Hereâ€™s why you should choose PMEX:</p>
+                        <ul class="list-disc pl-5 flex flex-col gap-1">
+                            <li>Comprehensive Services
+                            </li>
+                            <li>Technology and Innovation
+                            </li>
+                            <li>Tailored Solutions
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="py-12 md:py-20 bg-white">
+            <div class="max-w-[1260px] mx-auto w-full px-5 sm:px-6 md:px-10">
+                <!-- Tag -->
+                <p class="text-xs text-gray-400 tracking-widest uppercase text-center mb-4">Features that scale</p>
+
+                <!-- Heading -->
+                <h2
+                    class="text-[28px] sm:text-4xl md:text-5xl font-semibold text-gray-700 text-center leading-tight mb-10 md:mb-8 lg:mb-16">
+                    Built around the realities<br class="hidden md:block"> of specialty care reimbursement
+                </h2>
+
+                <!-- Main Grid -->
+                <div
+                    class="grid grid-cols-1 md:grid-cols-[300px_1fr] rounded-2xl md:border md:border-gray-200 overflow-hidden">
+
+                    <!-- Mobile Tab Navigator (below md only) -->
+                    <div class="md:hidden">
+                        <div class="flex items-center gap-3 bg-[#EAF4E7] rounded-2xl px-3 py-2.5">
+                            <button id="tab-prev" aria-label="Previous"
+                                class="shrink-0 w-8 h-8 rounded-full bg-white flex items-center justify-center text-gray-600">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M15 18l-6-6 6-6" />
+                                </svg>
+                            </button>
+                            <div class="flex-1 flex items-center justify-between min-w-0">
+                                <p id="mobile-tab-title"
+                                    class="text-[11px] font-semibold text-gray-700 tracking-widest uppercase truncate pr-2">
+                                    Built on real healthcare complexity</p>
+                                <span id="mobile-tab-counter" class="text-xs text-gray-500 shrink-0">1/3</span>
+                            </div>
+                            <button id="tab-next" aria-label="Next"
+                                class="shrink-0 w-8 h-8 rounded-full bg-white flex items-center justify-center text-gray-600">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M9 18l6-6-6-6" />
+                                </svg>
+                            </button>
+                        </div>
+                        <!-- description text, updates per tab -->
+                        <p id="mobile-tab-description" class="text-gray-600 text-sm leading-relaxed mt-4 mb-1">
+                            $2.5B+ in live claims data across specialty care environments â€” not synthetic data-sets or
+                            generalized AI abstractions.
+                        </p>
+                    </div>
+
+                    <!-- Left Tabs (md and up only) -->
+                    <div class="hidden md:flex md:h-full bg-gray-50 flex-col">
+                        <!-- Tab 1 -->
+                        <div onclick="showTab(0)"
+                            class="tab-btn cursor-pointer p-[28px_32px] border-b border-gray-200 bg-white">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="dot w-3 h-2 rounded-full bg-[#AAD39C]"></span>
+                                <p class="text-[13px] text-gray-400 tracking-widest uppercase font-semibold">Built on
+                                    real
+                                    healthcare complexity</p>
+                            </div>
+                            <p class="tab-extra text-gray-600 text-[22px] font-medium leading-snug">$2.5B+ in live
+                                claims
+                                data
+                                across
+                                specialty care environments â€” <span class="text-gray-400">not synthetic data-sets or
+                                    generalized
+                                    AI abstractions.</span></p>
+                        </div>
+
+                        <!-- Tab 2 -->
+                        <div onclick="showTab(1)" class="tab-btn cursor-pointer p-[28px_32px] border-b border-gray-200">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="dot w-3 h-2 rounded-full bg-gray-300"></span>
+                                <p class="text-[13px] text-gray-400 tracking-widest uppercase font-semibold">Humans
+                                    where
+                                    judgment matters</p>
+                            </div>
+                            <p class="tab-extra hidden text-gray-600 text-[22px] font-medium leading-snug mt-10">
+                                Camber's
+                                dedicated
+                                billing experts handle exceptions that automation cannot resolve on its own.</p>
+                        </div>
+
+                        <!-- Tab 3 -->
+                        <div onclick="showTab(2)" class="tab-btn cursor-pointer p-[28px_32px] flex-1">
+                            <div class="flex items-center gap-2 mb-2">
+                                <span class="dot w-3 h-2 rounded-full bg-gray-300"></span>
+                                <p class="text-[13px] text-gray-400 tracking-widest uppercase font-semibold">
+                                    Purpose-built for
+                                    healthcare revenue</p>
+                            </div>
+                            <p class="tab-extra hidden text-gray-600 text-[22px] font-medium leading-snug mt-20">
+                                Purpose-built data
+                                model, payer rules engine, and workflow orchestration.</p>
+                        </div>
+                    </div>
+
+                    <!-- ===== TAB 0 CONTENT ===== -->
+                    <div id="tab-0"
+                        class="tab-content flex flex-col p-5 md:p-[24px_28px] mt-3 md:m-0 rounded-2xl md:rounded-l-none"
+                        style="background: linear-gradient(135deg, #B6D7E5 0%, #94CAAE 50%, #4F9D75 100%); gap: 1.25rem; position: relative; overflow: hidden;">
+                        <!-- Dotted network connection background -->
+                        <div class="absolute inset-0 opacity-20 pointer-events-none">
+                            <svg width="100%" height="100%" viewBox="0 0 800 500" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="400" cy="250" r="180" stroke="white" stroke-width="1"
+                                    stroke-dasharray="4 4" />
+                                <circle cx="400" cy="250" r="100" stroke="white" stroke-width="1" />
+                                <circle cx="400" cy="250" r="6" fill="white" />
+                                <path d="M150 150 Q400 100 400 250" stroke="white" stroke-width="1.2"
+                                    stroke-dasharray="3 3" />
+                                <path d="M650 150 Q400 100 400 250" stroke="white" stroke-width="1.2"
+                                    stroke-dasharray="3 3" />
+                                <path d="M150 350 Q400 400 400 250" stroke="white" stroke-width="1.2" />
+                                <path d="M650 350 Q400 400 400 250" stroke="white" stroke-width="1.2" />
+                                <circle cx="280" cy="140" r="4" fill="white" />
+                                <circle cx="520" cy="140" r="4" fill="white" />
+                                <circle cx="300" cy="330" r="3" fill="white" />
+                                <circle cx="500" cy="330" r="3" fill="white" />
+                                <circle cx="400" cy="70" r="5" fill="white" />
+                                <circle cx="400" cy="430" r="5" fill="white" />
+                            </svg>
+                        </div>
+
+                        <div
+                            class="bg-white rounded-2xl px-5 md:px-6 py-4 mb-6 md:mb-20 text-gray-700 font-medium text-sm text-center z-10 shadow-sm">
+                            Claims submitted across all clinics in our network
+                        </div>
+
+                        <div
+                            class="bg-[#EEF0E8] rounded-2xl px-5 md:px-6 py-4 mb-6 md:mb-20 text-[#464A25] font-semibold text-sm text-center z-10 shadow-sm">
+                            Camber Rules Engine
+                        </div>
+
+                        <div
+                            class="bg-white rounded-2xl px-5 md:px-6 py-4 text-gray-700 font-medium text-sm text-center z-10 shadow-sm">
+                            Every denial creates a rule, every rule makes the next claim smarter
+                        </div>
+
+                        <div class="bg-white rounded-2xl p-5 md:p-6 z-10 shadow-sm flex flex-col gap-3">
+                            <p class="text-gray-700 text-sm font-medium">
+                                Every clinic benefits from the collective intelligence of the entire network
+                            </p>
+                            <div class="flex flex-wrap items-center gap-x-4 gap-y-2">
+                                <div class="flex items-center gap-2">
+                                    <span
+                                        class="flex items-center justify-center w-5 h-5 rounded bg-white border border-[#AAD39C] text-[#AAD39C] text-xs font-bold">âœ“</span>
+                                    <span class="text-gray-700 text-xs font-semibold">Stronger rules</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span
+                                        class="flex items-center justify-center w-5 h-5 rounded bg-white border border-[#AAD39C] text-[#AAD39C] text-xs font-bold">âœ“</span>
+                                    <span class="text-gray-700 text-xs font-semibold">Fewer denials</span>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <span
+                                        class="flex items-center justify-center w-5 h-5 rounded bg-white border border-[#AAD39C] text-[#AAD39C] text-xs font-bold">âœ“</span>
+                                    <span class="text-gray-700 text-xs font-semibold">Better outcomes</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ===== TAB 1 CONTENT ===== -->
+                    <div id="tab-1"
+                        class="tab-content hidden flex flex-col p-4 md:p-[24px_28px] mt-3 md:m-0 rounded-2xl md:rounded-l-none"
+                        style="background: linear-gradient(180deg, #3B9146 0%, #23632D 100%); gap: 0;">
+
+                        <!-- 4 Icon Cards -->
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-2">
+                            <div class="rounded-[14px] flex flex-col items-center justify-start text-center gap-2"
+                                style="background: rgba(255, 255, 255, 0.15); padding: 15px 8px 13px;">
+                                <img src="./img/Claims.webp" class="w-10 h-10 md:w-[68px] md:h-[68px]" alt="">
+                                <p class="text-white text-sm text-center font-semibold tracking-wide">Claims Creation
+                                </p>
+                            </div>
+
+                            <div class="rounded-[14px] flex flex-col items-center justify-start text-center gap-2"
+                                style="background: rgba(255, 255, 255, 0.15); padding: 15px 8px 13px;">
+                                <img src="./img/pre.webp" class="w-10 h-10 md:w-[68px] md:h-[60px]" alt="">
+                                <p class="text-white text-sm text-center font-semibold tracking-wide">Pre-Submission
+                                    Scrub</p>
+                            </div>
+
+                            <div class="rounded-[14px] flex flex-col items-center justify-start text-center gap-2"
+                                style="background: rgba(255, 255, 255, 0.15); padding: 15px 8px 13px;">
+                                <img src="./img/payment.webp" class="w-10 h-10 md:w-[68px] md:h-[68px]" alt="">
+                                <p class="text-white text-sm text-center font-semibold tracking-wide">Payment Posting
+                                </p>
+                            </div>
+
+                            <div class="rounded-[14px] flex flex-col items-center justify-start text-center gap-2"
+                                style="background: rgba(255, 255, 255, 0.15); padding: 15px 8px 13px;">
+                                <img src="./img/denial.webp" class="w-10 h-10 md:w-[68px] md:h-[68px]" alt="">
+                                <p class="text-white text-sm text-center font-semibold tracking-wide">Denial Management
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- ===== MOBILE-ONLY simplified vertical flow (below md) ===== -->
+                        <div class="md:hidden mt-3">
+                            <div class="rounded-xl px-4 py-2 mb-3" style="background: rgba(255,255,255,0.14);">
+                                <p class="text-[13px] font-medium" style="color: rgba(255,255,255,0.65);">Camber's Data
+                                    Foundation</p>
+                            </div>
+
+                            <div class="relative">
+                                <!-- vertical connecting line -->
+                                <div class="absolute left-[50%] top-3 bottom-3 w-px" style="background: #E8F2E6;"></div>
+
+                                <div class="flex flex-col gap-4">
+                                    <div class="relative">
+                                        <span class="absolute -left-7 top-1/2 -translate-y-1/2 w-2 h-2 rounded-full"
+                                            style="background: rgba(255,255,255,0.6);"></span>
+                                        <div class="rounded-[10px] px-4 py-2"
+                                            style="background: rgba(248,252,245,0.94);">
+                                            <p class="text-[13px] text-center font-medium text-gray-700">Camber Rules
+                                                Engine</p>
+                                        </div>
+                                    </div>
+                                    <div class="relative">
+                                        <span
+                                            class="absolute -left-7 top-1/2 -translate-y-1/2 w-2.5 h-2.5 rounded-full bg-[#AAD39C]"></span>
+                                        <div class="rounded-[10px] px-4 py-2"
+                                            style="background: rgba(248,252,245,0.94);">
+                                            <p class="text-[13px] text-center font-medium text-gray-700">AI-Driven
+                                                Investigation</p>
+                                        </div>
+                                    </div>
+                                    <div class="relative">
+                                        <span class="absolute -left-7 top-1/2 -translate-y-1/2 w-2 h-2 rounded-full"
+                                            style="background: rgba(255,255,255,0.6);"></span>
+                                        <div class="rounded-[10px] px-4 py-2"
+                                            style="background: rgba(248,252,245,0.94);">
+                                            <p class="text-[13px] text-center font-medium text-gray-700">
+                                                Human-in-the-Loop</p>
+                                            <p class="text-[11px] text-center mt-0.5" style="color:#959085;">(makes
+                                                final judgement
+                                                call)</p>
+                                        </div>
+                                    </div>
+                                    <div class="relative">
+                                        <span class="absolute -left-7 top-1/2 -translate-y-1/2 w-2 h-2 rounded-full"
+                                            style="background: rgba(255,255,255,0.6);"></span>
+                                        <div class="rounded-[10px] px-4 py-2"
+                                            style="background: rgba(248,252,245,0.94);">
+                                            <p class="text-[13px] text-center font-medium text-gray-700">Action Taken
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ===== DESKTOP flow diagram (md and up only, unchanged) ===== -->
+                        <div class="hidden md:block">
+                            <!-- Flow strip -->
+                            <div class="shrink-0 w-full relative"
+                                style="background: rgba(255, 255, 255, 0.14); min-height: 88px; z-index: 2; margin-top: 60px;">
+                                <div class="absolute inset-y-0 left-0 flex items-center"
+                                    style="padding-left: 36px; width: 15%;">
+                                    <p class="font-inter text-[13px] font-medium m-0 leading-[1.3]"
+                                        style="color: rgba(255, 255, 255, 0.65);">Camber's Data Foundation</p>
+                                </div>
+                                <div class="absolute inset-y-0 grid grid-cols-4 items-center"
+                                    style="left: 36px; right: 36px; gap: 14px;">
+                                    <div></div>
+                                    <div class="rounded-[10px] flex items-center justify-center"
+                                        style="background: rgba(248, 252, 245, 0.94); padding: 11px 10px; text-align: center;">
+                                        <p
+                                            class="font-inter text-[12px] font-medium text-rebranded-heading m-0 leading-[1.3]">
+                                            Camber Rules Engine</p>
+                                    </div>
+                                    <div></div>
+                                    <div class="rounded-[10px] flex items-center justify-center"
+                                        style="background: rgba(248, 252, 245, 0.94); padding: 11px 10px; text-align: center;">
+                                        <p
+                                            class="font-inter text-[12px] font-medium text-rebranded-heading m-0 leading-[1.3]">
+                                            AI-Driven Investigation</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Flow lower pills + animated SVG -->
+                            <div class="relative" style="min-height: 200px; z-index: 1;">
+                                <div class="absolute grid grid-cols-4" style="inset: 12% 36px 14%; gap: 14px;">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div class="flex flex-col gap-[48px]">
+                                        <div class="rounded-[10px] flex flex-col items-center justify-center"
+                                            style="background: rgba(248, 252, 245, 0.94); padding: 11px 10px; text-align: center;">
+                                            <p
+                                                class="font-inter text-[12px] font-medium text-rebranded-heading m-0 leading-[1.3]">
+                                                Human-in-the-Loop</p>
+                                            <p
+                                                class="font-inter text-[10px] font-normal text-rebranded-muted m-0 mt-[3px]">
+                                                (makes final judgement call)</p>
+                                        </div>
+                                        <div class="rounded-[10px] flex items-center justify-center"
+                                            style="background: rgba(248, 252, 245, 0.94); padding: 11px 10px; text-align: center;">
+                                            <p
+                                                class="font-inter text-[12px] font-medium text-rebranded-heading m-0 leading-[1.3]">
+                                                Action Taken</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <svg class="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 1000 1000"
+                                    preserveAspectRatio="none" fill="none" overflow="hidden" style="z-index: 0;">
+                                    <defs>
+                                        <clipPath id="panel-clip">
+                                            <rect x="0" y="0" width="1000" height="1000"></rect>
+                                        </clipPath>
+                                        <path id="dot-path" d="
+          M 851 50
+          L 851 929
+          Q 851 955 829 955
+          L 405 955
+          Q 383 955 383 520
+          L 383 75
+          Q 383 50 405 50
+          L 829 50
+          Q 851 50 851 75
+        "></path>
+                                        <filter id="dot-glow" x="-150%" y="-150%" width="400%" height="400%">
+                                            <feGaussianBlur stdDeviation="6" result="blur"></feGaussianBlur>
+                                            <feMerge>
+                                                <feMergeNode in="blur"></feMergeNode>
+                                                <feMergeNode in="blur"></feMergeNode>
+                                                <feMergeNode in="SourceGraphic"></feMergeNode>
+                                            </feMerge>
+                                        </filter>
+                                    </defs>
+                                    <path
+                                        d="M 383 75 Q 383 50 405 50 L 829 50 Q 851 50 851 75 L 851 929 Q 851 955 829 955 L 405 955 Q 383 955 383 929 L 383 75"
+                                        stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" fill="none"></path>
+                                    <ellipse cx="383" cy="50" rx="16" ry="8" fill="rgba(255,255,255,0.82)"></ellipse>
+                                    <ellipse cx="383" cy="955" rx="16" ry="8" fill="rgba(255,255,255,0.82)"></ellipse>
+                                    <g filter="url(#dot-glow)" clip-path="url(#panel-clip)"
+                                        class="motion-reduce:hidden">
+                                        <circle r="14" fill="rgba(255,255,255,0.18)">
+                                            <animateMotion dur="12s" repeatCount="indefinite" begin="0s" keyPoints="0;1"
+                                                keyTimes="0;1" calcMode="linear">
+                                                <mpath href="#dot-path"></mpath>
+                                            </animateMotion>
+                                            <animate attributeName="opacity"
+                                                values="0;0;0.7;0.7;0.7;0.7;0.7;0.7;0.7;0.3;0;0"
+                                                keyTimes="0;0.02;0.08;0.35;0.55;0.70;0.80;0.84;0.86;0.93;0.97;1"
+                                                dur="12s" repeatCount="indefinite" begin="0s"></animate>
+                                        </circle>
+                                        <circle r="7" fill="white">
+                                            <animateMotion dur="12s" repeatCount="indefinite" begin="0s" keyPoints="0;1"
+                                                keyTimes="0;1" calcMode="linear">
+                                                <mpath href="#dot-path"></mpath>
+                                            </animateMotion>
+                                            <animate attributeName="opacity" values="0;0;1;1;1;1;1;1;1;0.5;0;0"
+                                                keyTimes="0;0.02;0.08;0.35;0.55;0.70;0.80;0.84;0.86;0.93;0.97;1"
+                                                dur="12s" repeatCount="indefinite" begin="0s"></animate>
+                                            <animate attributeName="r" values="6;8;8;7;7;7;7;7;7;5;3;6"
+                                                keyTimes="0;0.05;0.08;0.35;0.55;0.70;0.80;0.84;0.86;0.93;0.97;1"
+                                                dur="12s" repeatCount="indefinite" begin="0s"></animate>
+                                        </circle>
+                                    </g>
+                                    <g filter="url(#dot-glow)" clip-path="url(#panel-clip)"
+                                        class="motion-reduce:hidden">
+                                        <circle r="14" fill="rgba(255,255,255,0.18)">
+                                            <animateMotion dur="12s" repeatCount="indefinite" begin="3s" keyPoints="0;1"
+                                                keyTimes="0;1" calcMode="linear">
+                                                <mpath href="#dot-path"></mpath>
+                                            </animateMotion>
+                                            <animate attributeName="opacity"
+                                                values="0;0;0.7;0.7;0.7;0.7;0.7;0.7;0.7;0.3;0;0"
+                                                keyTimes="0;0.02;0.08;0.35;0.55;0.70;0.80;0.84;0.86;0.93;0.97;1"
+                                                dur="12s" repeatCount="indefinite" begin="3s"></animate>
+                                        </circle>
+                                        <circle r="7" fill="white">
+                                            <animateMotion dur="12s" repeatCount="indefinite" begin="3s" keyPoints="0;1"
+                                                keyTimes="0;1" calcMode="linear">
+                                                <mpath href="#dot-path"></mpath>
+                                            </animateMotion>
+                                            <animate attributeName="opacity" values="0;0;1;1;1;1;1;1;1;0.5;0;0"
+                                                keyTimes="0;0.02;0.08;0.35;0.55;0.70;0.80;0.84;0.86;0.93;0.97;1"
+                                                dur="12s" repeatCount="indefinite" begin="3s"></animate>
+                                            <animate attributeName="r" values="6;8;8;7;7;7;7;7;7;5;3;6"
+                                                keyTimes="0;0.05;0.08;0.35;0.55;0.70;0.80;0.84;0.86;0.93;0.97;1"
+                                                dur="12s" repeatCount="indefinite" begin="3s"></animate>
+                                        </circle>
+                                    </g>
+                                    <g filter="url(#dot-glow)" clip-path="url(#panel-clip)"
+                                        class="motion-reduce:hidden">
+                                        <circle r="14" fill="rgba(255,255,255,0.18)">
+                                            <animateMotion dur="12s" repeatCount="indefinite" begin="6s" keyPoints="0;1"
+                                                keyTimes="0;1" calcMode="linear">
+                                                <mpath href="#dot-path"></mpath>
+                                            </animateMotion>
+                                            <animate attributeName="opacity"
+                                                values="0;0;0.7;0.7;0.7;0.7;0.7;0.7;0.7;0.3;0;0"
+                                                keyTimes="0;0.02;0.08;0.35;0.55;0.70;0.80;0.84;0.86;0.93;0.97;1"
+                                                dur="12s" repeatCount="indefinite" begin="6s"></animate>
+                                        </circle>
+                                        <circle r="7" fill="white">
+                                            <animateMotion dur="12s" repeatCount="indefinite" begin="6s" keyPoints="0;1"
+                                                keyTimes="0;1" calcMode="linear">
+                                                <mpath href="#dot-path"></mpath>
+                                            </animateMotion>
+                                            <animate attributeName="opacity" values="0;0;1;1;1;1;1;1;1;0.5;0;0"
+                                                keyTimes="0;0.02;0.08;0.35;0.55;0.70;0.80;0.84;0.86;0.93;0.97;1"
+                                                dur="12s" repeatCount="indefinite" begin="6s"></animate>
+                                            <animate attributeName="r" values="6;8;8;7;7;7;7;7;7;5;3;6"
+                                                keyTimes="0;0.05;0.08;0.35;0.55;0.70;0.80;0.84;0.86;0.93;0.97;1"
+                                                dur="12s" repeatCount="indefinite" begin="6s"></animate>
+                                        </circle>
+                                    </g>
+                                    <g filter="url(#dot-glow)" clip-path="url(#panel-clip)"
+                                        class="motion-reduce:hidden">
+                                        <circle r="14" fill="rgba(255,255,255,0.18)">
+                                            <animateMotion dur="12s" repeatCount="indefinite" begin="9s" keyPoints="0;1"
+                                                keyTimes="0;1" calcMode="linear">
+                                                <mpath href="#dot-path"></mpath>
+                                            </animateMotion>
+                                            <animate attributeName="opacity"
+                                                values="0;0;0.7;0.7;0.7;0.7;0.7;0.7;0.7;0.3;0;0"
+                                                keyTimes="0;0.02;0.08;0.35;0.55;0.70;0.80;0.84;0.86;0.93;0.97;1"
+                                                dur="12s" repeatCount="indefinite" begin="9s"></animate>
+                                        </circle>
+                                        <circle r="7" fill="white">
+                                            <animateMotion dur="12s" repeatCount="indefinite" begin="9s" keyPoints="0;1"
+                                                keyTimes="0;1" calcMode="linear">
+                                                <mpath href="#dot-path"></mpath>
+                                            </animateMotion>
+                                            <animate attributeName="opacity" values="0;0;1;1;1;1;1;1;1;0.5;0;0"
+                                                keyTimes="0;0.02;0.08;0.35;0.55;0.70;0.80;0.84;0.86;0.93;0.97;1"
+                                                dur="12s" repeatCount="indefinite" begin="9s"></animate>
+                                            <animate attributeName="r" values="6;8;8;7;7;7;7;7;7;5;3;6"
+                                                keyTimes="0;0.05;0.08;0.35;0.55;0.70;0.80;0.84;0.86;0.93;0.97;1"
+                                                dur="12s" repeatCount="indefinite" begin="9s"></animate>
+                                        </circle>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ===== TAB 2 CONTENT ===== -->
+                    <div id="tab-2"
+                        class="tab-content hidden flex flex-col p-5 md:p-[24px_28px] mt-3 md:m-0 rounded-2xl md:rounded-l-none"
+                        style="background: linear-gradient(135deg, #B6D7E5 0%, #94CAAE 50%, #4F9D75 100%); gap:0.5rem;">
+
+                        <!-- Check Rows -->
+                        <div class="flex flex-col gap-2">
+                            <div
+                                class="bg-[#F1F8F2] rounded-2xl px-4 md:px-6 py-3 md:py-4 flex justify-between items-center gap-3 shadow-sm">
+                                <div>
+                                    <p class="text-gray-400 text-[10px] font-semibold uppercase tracking-widest">Payer
+                                        Billing
+                                        Patterns</p>
+                                    <p class="text-gray-700 text-xs md:text-sm font-semibold mt-0.5">Checking CPT Codes,
+                                        Modifier
+                                        History...</p>
+                                </div>
+                                <span
+                                    class="shrink-0 flex items-center justify-center w-6 h-6 rounded-full border border-[#AAD39C] text-[#AAD39C] bg-white text-xs font-bold">âœ“</span>
+                            </div>
+                            <div
+                                class="bg-[#F1F8F2] rounded-2xl px-4 md:px-6 py-3 md:py-4 flex justify-between items-center gap-3 shadow-sm">
+                                <div>
+                                    <p class="text-gray-400 text-[10px] font-semibold uppercase tracking-widest">
+                                        Provider
+                                        Credentials</p>
+                                    <p class="text-gray-700 text-xs md:text-sm font-semibold mt-0.5">Checking Provider
+                                        Taxonomy,
+                                        NPI...</p>
+                                </div>
+                                <span
+                                    class="shrink-0 flex items-center justify-center w-6 h-6 rounded-full border border-[#AAD39C] text-[#AAD39C] bg-white text-xs font-bold">âœ“</span>
+                            </div>
+                            <div
+                                class="bg-[#F1F8F2] rounded-2xl px-4 md:px-6 py-3 md:py-4 flex justify-between items-center gap-3 shadow-sm">
+                                <div>
+                                    <p class="text-gray-400 text-[10px] font-semibold uppercase tracking-widest">Payer
+                                        Billing
+                                        Patterns</p>
+                                    <p class="text-gray-700 text-xs md:text-sm font-semibold mt-0.5">Checking CARC and
+                                        RARC
+                                        Codes...</p>
+                                </div>
+                                <span
+                                    class="shrink-0 flex items-center justify-center w-6 h-6 rounded-full border border-[#AAD39C] text-[#AAD39C] bg-white text-xs font-bold">âœ“</span>
+                            </div>
+                            <div
+                                class="bg-[#F1F8F2] rounded-2xl px-4 md:px-6 py-3 md:py-4 flex justify-between items-center gap-3 shadow-sm">
+                                <div>
+                                    <p class="text-gray-400 text-[10px] font-semibold uppercase tracking-widest">Payer
+                                        Billing
+                                        Patterns</p>
+                                    <p class="text-gray-700 text-xs md:text-sm font-semibold mt-0.5">Checking
+                                        requirements by payer
+                                        and
+                                        service type...</p>
+                                </div>
+                                <span
+                                    class="shrink-0 flex items-center justify-center w-6 h-6 rounded-full border border-[#AAD39C] text-[#AAD39C] bg-white text-xs font-bold">âœ“</span>
+                            </div>
+                        </div>
+
+                        <!-- Bottom 3 Columns â€” stays 3 cols on mobile too, just smaller text -->
+                        <div class="grid grid-cols-3 gap-1.5 sm:gap-2 bg-[#F1F8F2] rounded-2xl p-3 sm:p-4 shadow-sm">
+                            <!-- Data Sources -->
+                            <div class="flex flex-col gap-1.5 sm:gap-[7px] pr-1.5 sm:pr-2 border-r border-gray-100">
+                                <p
+                                    class="text-gray-400 text-[8px] sm:text-[10px] uppercase tracking-widest font-semibold mb-1">
+                                    Data
+                                    Sources
+                                </p>
+                                <span
+                                    class="border border-[#AAD39C] text-gray-700 bg-white text-[8px] sm:text-[11px] px-1.5 sm:px-3 py-[2px] sm:py-[3px] rounded-full text-center font-medium shadow-sm leading-tight">Claim
+                                    Status (277)</span>
+                                <span
+                                    class="border border-[#AAD39C] text-gray-700 bg-white text-[8px] sm:text-[11px] px-1.5 sm:px-3 py-[2px] sm:py-[3px] rounded-full text-center font-medium shadow-sm leading-tight">Remittances
+                                    (879)</span>
+                                <span
+                                    class="border border-gray-200 text-gray-400 bg-white text-[8px] sm:text-[11px] px-1.5 sm:px-3 py-[2px] sm:py-[3px] rounded-full text-center font-medium leading-tight">Payer
+                                    Policy</span>
+                                <span
+                                    class="border border-gray-200 text-gray-400 bg-white text-[8px] sm:text-[11px] px-1.5 sm:px-3 py-[2px] sm:py-[3px] rounded-full text-center font-medium leading-tight">Claim
+                                    History</span>
+                            </div>
+                            <!-- Camber Data Model -->
+                            <div class="flex flex-col gap-1.5 sm:gap-[7px] pr-1.5 sm:pr-2 border-r border-gray-100">
+                                <p
+                                    class="text-gray-400 text-[8px] sm:text-[10px] uppercase tracking-widest font-semibold mb-1">
+                                    Camber
+                                    Data
+                                    Model</p>
+                                <span
+                                    class="border border-gray-200 text-gray-400 bg-white text-[8px] sm:text-[11px] px-1.5 sm:px-3 py-[2px] sm:py-[3px] rounded-full text-center font-medium leading-tight">CLAIM
+                                    STATUS</span>
+                                <span
+                                    class="border border-gray-200 text-gray-400 bg-white text-[8px] sm:text-[11px] px-1.5 sm:px-3 py-[2px] sm:py-[3px] rounded-full text-center font-medium leading-tight">DENIAL
+                                    INFO</span>
+                                <span
+                                    class="border border-[#AAD39C] text-gray-700 bg-white text-[8px] sm:text-[11px] px-1.5 sm:px-3 py-[2px] sm:py-[3px] rounded-full text-center font-medium shadow-sm leading-tight">EOB
+                                    INFO</span>
+                                <span
+                                    class="border border-gray-200 text-gray-400 bg-white text-[8px] sm:text-[11px] px-1.5 sm:px-3 py-[2px] sm:py-[3px] rounded-full text-center font-medium leading-tight">TIMELY
+                                    FILING</span>
+                            </div>
+                            <!-- Recommended Actions -->
+                            <div class="flex flex-col gap-1.5 sm:gap-[7px]">
+                                <p
+                                    class="text-gray-400 text-[8px] sm:text-[10px] uppercase tracking-widest font-semibold mb-1">
+                                    Recommended
+                                    Actions</p>
+                                <span
+                                    class="border border-[#AAD39C] text-gray-700 bg-white text-[8px] sm:text-[11px] px-1.5 sm:px-3 py-[2px] sm:py-[3px] rounded-full text-center font-medium shadow-sm leading-tight">Submit
+                                    Missing Documents</span>
+                                <span
+                                    class="border border-[#AAD39C] text-gray-700 bg-white text-[8px] sm:text-[11px] px-1.5 sm:px-3 py-[2px] sm:py-[3px] rounded-full text-center font-medium shadow-sm leading-tight">Appeal
+                                    Denial</span>
+                                <span
+                                    class="border border-gray-200 text-gray-400 bg-white text-[8px] sm:text-[11px] px-1.5 sm:px-3 py-[2px] sm:py-[3px] rounded-full text-center font-medium leading-tight">Add
+                                    Missing Modifier</span>
+                                <span
+                                    class="border border-gray-200 text-gray-400 bg-white text-[8px] sm:text-[11px] px-1.5 sm:px-3 py-[2px] sm:py-[3px] rounded-full text-center font-medium leading-tight">Attaching
+                                    Missing Authorization</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Banner -->
+        <section class="border-b border-t border-[#AAD39C] py-8 md:py-14"
+            style="background: linear-gradient(to right, #D2D6DF, #f5f7f2);">
+            <div
+                class="max-w-[1260px] mx-auto w-full px-5 sm:px-6 md:px-18 flex flex-col md:flex-row justify-between items-start md:items-center gap-6 md:gap-4">
+                <div class="px-0 md:px-4">
+                    <h3 class="text-[#3a7a4a] text-xl sm:text-2xl md:text-[28px] font-semibold mb-1.5">
+                        See what's leaking from your revenue cycle.</h3>
+                    <p class="text-gray-500 text-sm md:text-[16px] leading-relaxed">Most practices know
+                        revenue is slipping, but not why or where. Pinpoint root causes with a free diagnostic built on
+                        your real claims data.</p>
+                </div>
+                <a href="#"
+                    class="bg-[#AAD39C] text-[#464A25] px-6 py-3 rounded-full text-[15px] font-medium whitespace-nowrap w-full md:w-auto text-center shrink-0">
+                    Run a revenue audit</a>
+            </div>
+        </section>
+
+        <!-- Four Capability Grid -->
+        <section class="py-8 md:py-12 bg-white border-b border-[#AAD39C] pb-10 md:pb-15">
+            <div class="max-w-[1260px] mx-auto w-full px-5 sm:px-6 md:px-10">
+                <!-- Tag + Heading -->
+                <p class="text-xs md:text-sm text-gray-400 tracking-[0.12em] uppercase mb-2 md:mb-3">
+                    Four-Capability Grid</p>
+                <h2
+                    class="text-2xl sm:text-3xl md:text-[38px] font-normal text-gray-700 leading-tight md:leading-[1.3] mb-6 md:mb-6 lg:mb-10">
+                    A unified operating layer<br class="hidden sm:block"> for healthcare revenue</h2>
+
+                <!-- Grid -->
+                <div class="flex flex-col gap-3 md:gap-4">
+
+                    <!-- Row 1: Claims & Payments -->
+                    <div class="grid grid-cols-1 md:grid-cols-[2fr_3fr] gap-3 md:gap-4">
+                        <!-- Claims -->
+                        <div
+                            class="bg-gradient-to-br from-[#EDEFE7] via-[#e8eaed] to-[#d8dce3] rounded-2xl p-5 md:p-7 flex flex-col min-h-[220px] md:min-h-[250px] justify-between gap-4">
+                            <div>
+                                <p class="text-gray-700 font-semibold text-xl md:text-[28px] mb-1">Claims</p>
+                                <p class="text-gray-500 text-sm md:text-[20px]">Get paid faster, more consistently.</p>
+                            </div>
+                            <div class="flex items-center gap-4 md:gap-6 mt-auto flex-wrap">
+                                <svg width="110" height="60" viewBox="0 0 90 55" fill="none"
+                                    class="md:w-[150px] md:h-[80px]">
+                                    <rect x="0" y="40" width="10" height="15" rx="2" fill="#AAD39C" opacity="0.3" />
+                                    <rect x="14" y="33" width="10" height="22" rx="2" fill="#AAD39C" opacity="0.4" />
+                                    <rect x="28" y="26" width="10" height="29" rx="2" fill="#AAD39C" opacity="0.5" />
+                                    <rect x="42" y="18" width="10" height="37" rx="2" fill="#AAD39C" opacity="0.65" />
+                                    <rect x="56" y="10" width="10" height="45" rx="2" fill="#AAD39C" opacity="0.8" />
+                                    <rect x="70" y="2" width="10" height="53" rx="2" fill="#AAD39C" />
+                                </svg>
+                                <div>
+                                    <p class="text-4xl md:text-[60px] font-light text-gray-400">+3pp</p>
+                                    <p class="text-xs md:text-[15px] text-gray-400 leading-snug">increase in Net
+                                        Collections
+                                        Rate<br>within a year</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Payments -->
+                        <div
+                            class="bg-gradient-to-br from-[#EDEFE7] via-[#e8eaed] to-[#d8dce3] rounded-2xl p-5 md:p-7 flex flex-col min-h-[220px] md:min-h-[250px] justify-between gap-4">
+                            <div>
+                                <p class="text-gray-700 font-semibold text-xl md:text-[28px] mb-1">Payments</p>
+                                <p class="text-gray-500 text-sm md:text-[15px]">Cash arrives on a predictable timeline.
+                                </p>
+                            </div>
+                            <div class="flex items-center gap-4 md:gap-6 mt-auto flex-wrap">
+                                <svg width="130" height="65" viewBox="0 0 90 55" fill="none"
+                                    class="md:w-[180px] md:h-[90px]">
+                                    <!-- Row 1 -->
+                                    <rect x="0" y="0" width="8" height="8" rx="2" fill="#AAD39C" />
+                                    <rect x="12" y="0" width="8" height="8" rx="2" fill="#AAD39C" />
+                                    <rect x="24" y="0" width="8" height="8" rx="2" fill="#AAD39C" />
+                                    <rect x="36" y="0" width="8" height="8" rx="2" fill="#AAD39C" />
+                                    <rect x="48" y="0" width="8" height="8" rx="2" fill="#AAD39C" />
+                                    <rect x="60" y="0" width="8" height="8" rx="2" fill="#AAD39C" />
+                                    <rect x="72" y="0" width="8" height="8" rx="2" fill="#AAD39C" />
+                                    <!-- Row 2 -->
+                                    <rect x="0" y="12" width="8" height="8" rx="2" fill="#AAD39C" />
+                                    <rect x="12" y="12" width="8" height="8" rx="2" fill="#AAD39C" />
+                                    <rect x="24" y="12" width="8" height="8" rx="2" fill="#AAD39C" />
+                                    <rect x="36" y="12" width="8" height="8" rx="2" fill="#AAD39C" />
+                                    <rect x="48" y="12" width="8" height="8" rx="2" fill="#AAD39C" />
+                                    <rect x="60" y="12" width="8" height="8" rx="2" fill="#d1d5db" />
+                                    <rect x="72" y="12" width="8" height="8" rx="2" fill="#d1d5db" />
+                                    <!-- Row 3 -->
+                                    <rect x="0" y="24" width="8" height="8" rx="2" fill="#AAD39C" />
+                                    <rect x="12" y="24" width="8" height="8" rx="2" fill="#AAD39C" />
+                                    <rect x="24" y="24" width="8" height="8" rx="2" fill="#d1d5db" />
+                                    <rect x="36" y="24" width="8" height="8" rx="2" fill="#d1d5db" />
+                                    <rect x="48" y="24" width="8" height="8" rx="2" fill="#d1d5db" />
+                                    <rect x="60" y="24" width="8" height="8" rx="2" fill="#d1d5db" />
+                                    <rect x="72" y="24" width="8" height="8" rx="2" fill="#d1d5db" />
+                                    <!-- Row 4 -->
+                                    <rect x="0" y="36" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="12" y="36" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="24" y="36" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="36" y="36" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="48" y="36" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="60" y="36" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="72" y="36" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <!-- Row 5 -->
+                                    <rect x="0" y="47" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="12" y="47" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="24" y="47" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="36" y="47" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="48" y="47" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="60" y="47" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="72" y="47" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                </svg>
+                                <div>
+                                    <p class="text-4xl md:text-[68px] font-light text-gray-400">29</p>
+                                    <p class="text-xs md:text-[15px] text-gray-400">days to collect on average</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 2: Denials & Analytics -->
+                    <div class="grid grid-cols-1 md:grid-cols-[3fr_2fr] gap-3 md:gap-4">
+                        <!-- Denials -->
+                        <div
+                            class="bg-gradient-to-br from-[#EDEFE7] via-[#e8eaed] to-[#d8dce3] rounded-2xl p-5 md:p-7 flex flex-col min-h-[220px] md:min-h-[250px] justify-between gap-4">
+                            <div>
+                                <p class="text-gray-700 font-semibold text-xl md:text-[28px] mb-1">Denials</p>
+                                <p class="text-gray-500 text-sm md:text-[15px]">Catch denial risk before submission.</p>
+                            </div>
+                            <div class="flex items-center gap-4 md:gap-6 mt-auto flex-wrap">
+                                <svg width="110" height="60" viewBox="0 0 90 55" fill="none"
+                                    class="md:w-[150px] md:h-[80px]">
+                                    <!-- Row 1 - all gray -->
+                                    <rect x="0" y="0" width="8" height="8" rx="2" fill="#9ca3af" />
+                                    <rect x="12" y="0" width="8" height="8" rx="2" fill="#9ca3af" />
+                                    <rect x="24" y="0" width="8" height="8" rx="2" fill="#9ca3af" />
+                                    <rect x="36" y="0" width="8" height="8" rx="2" fill="#9ca3af" />
+                                    <rect x="48" y="0" width="8" height="8" rx="2" fill="#9ca3af" />
+                                    <rect x="60" y="0" width="8" height="8" rx="2" fill="#9ca3af" />
+                                    <rect x="72" y="0" width="8" height="8" rx="2" fill="#9ca3af" />
+                                    <!-- Row 2 -->
+                                    <rect x="0" y="12" width="8" height="8" rx="2" fill="#9ca3af" />
+                                    <rect x="12" y="12" width="8" height="8" rx="2" fill="#9ca3af" />
+                                    <rect x="24" y="12" width="8" height="8" rx="2" fill="#9ca3af" />
+                                    <rect x="36" y="12" width="8" height="8" rx="2" fill="#9ca3af" />
+                                    <rect x="48" y="12" width="8" height="8" rx="2" fill="#d1d5db" />
+                                    <rect x="60" y="12" width="8" height="8" rx="2" fill="#d1d5db" />
+                                    <rect x="72" y="12" width="8" height="8" rx="2" fill="#d1d5db" />
+                                    <!-- Row 3 -->
+                                    <rect x="0" y="24" width="8" height="8" rx="2" fill="#d1d5db" />
+                                    <rect x="12" y="24" width="8" height="8" rx="2" fill="#d1d5db" />
+                                    <rect x="24" y="24" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="36" y="24" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="48" y="24" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="60" y="24" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="72" y="24" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <!-- Row 4 -->
+                                    <rect x="0" y="36" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="12" y="36" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="24" y="36" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="36" y="36" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="48" y="36" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="60" y="36" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                    <rect x="72" y="36" width="8" height="8" rx="2" fill="#e5e7eb" />
+                                </svg>
+                                <div>
+                                    <p class="text-4xl md:text-[60px] font-light text-gray-400">-7pp</p>
+                                    <p class="text-xs md:text-[15px] text-gray-400 leading-snug">decrease in Initial
+                                        Denial Rate
+                                        within a year</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Analytics -->
+                        <div
+                            class="bg-gradient-to-br from-[#EDEFE7] via-[#e8eaed] to-[#d8dce3] rounded-2xl p-5 md:p-7 flex flex-col min-h-[220px] md:min-h-[250px] justify-between gap-4">
+                            <div>
+                                <p class="text-gray-700 font-semibold text-xl md:text-[28px] mb-1">Analytics</p>
+                                <p class="text-gray-500 text-sm md:text-[15px]">Always know what you're owed and what's
+                                    at risk.
+                                </p>
+                            </div>
+                            <svg width="100%" height="70" viewBox="0 0 400 80" preserveAspectRatio="none" fill="none"
+                                class="mt-auto md:h-[80px]">
+                                <defs>
+                                    <linearGradient id="waveGrad" x1="0" y1="0" x2="0" y2="1">
+                                        <stop offset="0%" stop-color="#AAD39C" stop-opacity="0.4" />
+                                        <stop offset="100%" stop-color="#AAD39C" stop-opacity="0.05" />
+                                    </linearGradient>
+                                </defs>
+                                <path
+                                    d="M0 60 C40 55, 60 40, 100 45 C140 50, 160 35, 200 38 C240 41, 260 55, 300 50 C340 45, 360 35, 400 40 L400 80 L0 80 Z"
+                                    fill="url(#waveGrad)" />
+                                <path
+                                    d="M0 60 C40 55, 60 40, 100 45 C140 50, 160 35, 200 38 C240 41, 260 55, 300 50 C340 45, 360 35, 400 40"
+                                    stroke="#AAD39C" stroke-width="2" fill="none" />
+                            </svg>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- lifecycle -->
+        <section class="py-8 md:py-12 bg-white border-b border-[#AAD39C] pb-10 md:pb-15">
+            <div class="max-w-[1260px] mx-auto w-full px-5 sm:px-6 md:px-10">
+
+                <p class="text-xs md:text-sm text-gray-400 tracking-[0.12em] uppercase mb-2 md:mb-3 text-center">
+                    The Lifecycle of a Claim</p>
+                <h2
+                    class="text-2xl sm:text-3xl md:text-[38px] font-normal text-gray-700 leading-tight md:leading-[1.3] mb-6 md:mb-6 lg:mb-10 text-center">
+                    The lifecycle of a claim,<br class="hidden sm:block">before and after PMEX</h2>
+
+                <!-- Mobile Tab Navigator (below md only) -->
+                <div class="md:hidden mb-5">
+                    <div class="flex items-center gap-3 bg-[#EAF4E7] rounded-2xl px-3 py-2.5">
+                        <button onclick="switchTab((currentLifecycleTab + 3) % 4)" aria-label="Previous"
+                            class="shrink-0 w-8 h-8 rounded-full bg-white flex items-center justify-center text-gray-600">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M15 18l-6-6 6-6" />
+                            </svg>
+                        </button>
+                        <div class="flex-1 flex items-center justify-between min-w-0">
+                            <p id="lifecycle-mobile-title"
+                                class="text-[11px] font-semibold text-gray-700 tracking-widest uppercase truncate pr-2">
+                                Claims Lifecycle</p>
+                            <span id="lifecycle-mobile-counter" class="text-xs text-gray-500 shrink-0">1/4</span>
+                        </div>
+                        <button onclick="switchTab((currentLifecycleTab + 1) % 4)" aria-label="Next"
+                            class="shrink-0 w-8 h-8 rounded-full bg-white flex items-center justify-center text-gray-600">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M9 18l6-6-6-6" />
+                            </svg>
+                        </button>
+                    </div>
+                    <p id="lifecycle-mobile-description"
+                        class="text-gray-600 text-sm leading-relaxed mt-4 text-center px-2">
+                        Implement a revenue cycle platform that submits accurately, runs automatically, and gets smarter
+                        with every claim.
+                    </p>
+                </div>
+
+                <!-- Cards -->
+                <div class="mb-8">
+
+                    <!-- Tab 1: Claims Lifecycle -->
+                    <div id="panel-0" class="relative flex flex-col md:flex-row rounded-3xl overflow-hidden"
+                        style="min-height: 480px; background: linear-gradient(to right, #2d6a3f 0%, #4ab84a 50%, #54C363 75%);">
+
+                        <!-- Mobile-only WITHOUT/WITH toggle -->
+                        <div class="md:hidden flex justify-center gap-3 pt-6 px-4">
+                            <button onclick="showSide(0,0)" data-panel="0" data-side="0"
+                                class="side-toggle-btn side-toggle-active rounded-full px-5 py-2.5 text-xs font-bold uppercase tracking-wide">
+                                Without Camber
+                            </button>
+                            <button onclick="showSide(0,1)" data-panel="0" data-side="1"
+                                class="side-toggle-btn rounded-full px-5 py-2.5 text-xs font-bold uppercase tracking-wide">
+                                With Camber
+                            </button>
+                        </div>
+                        <div class="md:hidden flex justify-center gap-1.5 mt-3">
+                            <span class="dot-indicator w-1.5 h-1.5 rounded-full bg-white" data-panel="0"
+                                data-side="0"></span>
+                            <span class="dot-indicator w-1.5 h-1.5 rounded-full bg-white/40" data-panel="0"
+                                data-side="1"></span>
+                        </div>
+
+                        <!-- Vertical divider (desktop only) -->
+                        <div class="hidden md:flex"
+                            style="position:absolute;top:0;bottom:0;left:50%;width:1px;background:rgba(255,255,255,0.25);z-index:1;align-items:center;justify-content:center;">
+                            <div style="width:4px;height:240px;background:#ffffff;border-radius:9999px;"></div>
+                        </div>
+
+                        <!-- Without side -->
+                        <div data-panel="0" data-side="0"
+                            class="panel-side flex-1 flex flex-col items-center pt-6 md:pt-10 pb-10 px-6 md:px-16">
+                            <p class="hidden md:block"
+                                style="font-size:14px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:white;">
+                                Without PMEX</p>
+                            <div class="flex-1 flex items-center justify-center">
+                                <img src="./img/1.svg" alt=""
+                                    style="width:clamp(100px,40vw,220px);height:clamp(100px,40vw,220px);object-fit:contain;opacity:0.8">
+                            </div>
+                            <p style="font-size:15px;color:white;text-align:center;max-width:340px;line-height:1.65;">
+                                Eligibility gets checked manually or skipped. Authorization gaps show up weeks after
+                                treatment. Claims go out with errors that could have been caught before submission.
+                            </p>
+                        </div>
+
+                        <!-- With side -->
+                        <div data-panel="0" data-side="1"
+                            class="panel-side hidden md:flex flex-1 flex-col items-center pt-6 md:pt-10 pb-10 px-6 md:px-16">
+                            <p class="hidden md:block"
+                                style="font-size:14px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:white;">
+                                With PMEX</p>
+                            <div class="flex-1 flex items-center justify-center">
+                                <img src="./img/2.svg" alt=""
+                                    style="width:clamp(100px,40vw,220px);height:clamp(100px,40vw,220px);object-fit:contain;opacity:0.9">
+                            </div>
+                            <p style="font-size:15px;color:white;text-align:center;max-width:340px;line-height:1.65;">
+                                Every claim is built on verified eligibility and clean authorization, and checked
+                                against payer-specific rules and requirements before submission.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Tab 2: Denial Prediction -->
+                    <div id="panel-1" class="relative flex flex-col md:flex-row rounded-3xl overflow-hidden"
+                        style="min-height: 480px; background: linear-gradient(to right, #2d6a3f 0%, #4ab84a 50%, #54C363 75%); display:none;">
+
+                        <div class="md:hidden flex justify-center gap-3 pt-6 px-4">
+                            <button onclick="showSide(1,0)" data-panel="1" data-side="0"
+                                class="side-toggle-btn side-toggle-active rounded-full px-5 py-2.5 text-xs font-bold uppercase tracking-wide">
+                                Without Camber
+                            </button>
+                            <button onclick="showSide(1,1)" data-panel="1" data-side="1"
+                                class="side-toggle-btn rounded-full px-5 py-2.5 text-xs font-bold uppercase tracking-wide">
+                                With Camber
+                            </button>
+                        </div>
+                        <div class="md:hidden flex justify-center gap-1.5 mt-3">
+                            <span class="dot-indicator w-1.5 h-1.5 rounded-full bg-white" data-panel="1"
+                                data-side="0"></span>
+                            <span class="dot-indicator w-1.5 h-1.5 rounded-full bg-white/40" data-panel="1"
+                                data-side="1"></span>
+                        </div>
+
+                        <div class="hidden md:flex"
+                            style="position:absolute;top:0;bottom:0;left:50%;width:1px;background:rgba(255,255,255,0.25);z-index:1;align-items:center;justify-content:center;">
+                            <div style="width:4px;height:240px;background:#ffffff;border-radius:9999px;"></div>
+                        </div>
+
+                        <div data-panel="1" data-side="0"
+                            class="panel-side flex-1 flex flex-col items-center pt-6 md:pt-10 pb-10 px-6 md:px-16">
+                            <p class="hidden md:block"
+                                style="font-size:14px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:white;">
+                                Without PMEX</p>
+                            <div class="flex-1 flex items-center justify-center">
+                                <img src="./img/3.webp" alt=""
+                                    style="width:clamp(100px,40vw,220px);height:clamp(100px,40vw,220px);object-fit:contain;opacity:0.8">
+                            </div>
+                            <p style="font-size:15px;color:white;text-align:center;max-width:340px;line-height:1.65;">
+                                Denials arrive after the fact with no warning. Staff spend hours working appeals with no
+                                sense of what's winnable.
+                            </p>
+                        </div>
+
+                        <div data-panel="1" data-side="1"
+                            class="panel-side hidden md:flex flex-1 flex-col items-center pt-6 md:pt-10 pb-10 px-6 md:px-16">
+                            <p class="hidden md:block"
+                                style="font-size:14px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:white">
+                                With PMEX</p>
+                            <div class="flex-1 flex items-center justify-center">
+                                <img src="./img/4.webp" alt=""
+                                    style="width:clamp(100px,40vw,220px);height:clamp(100px,40vw,220px);object-fit:contain;opacity:0.9">
+                            </div>
+                            <p style="font-size:15px;color:white;text-align:center;max-width:340px;line-height:1.65;">
+                                Denial risk is flagged before a claim is ever submitted, so your team can fix issues
+                                while there's still time.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Tab 3: Auto Triage -->
+                    <div id="panel-2" class="relative flex flex-col md:flex-row rounded-3xl overflow-hidden"
+                        style="min-height: 480px; background: linear-gradient(to right, #2d6a3f 0%, #4ab84a 50%, #54C363 75%); display:none;">
+
+                        <div class="md:hidden flex justify-center gap-3 pt-6 px-4">
+                            <button onclick="showSide(2,0)" data-panel="2" data-side="0"
+                                class="side-toggle-btn side-toggle-active rounded-full px-5 py-2.5 text-xs font-bold uppercase tracking-wide">
+                                Without Camber
+                            </button>
+                            <button onclick="showSide(2,1)" data-panel="2" data-side="1"
+                                class="side-toggle-btn rounded-full px-5 py-2.5 text-xs font-bold uppercase tracking-wide">
+                                With Camber
+                            </button>
+                        </div>
+                        <div class="md:hidden flex justify-center gap-1.5 mt-3">
+                            <span class="dot-indicator w-1.5 h-1.5 rounded-full bg-white" data-panel="2"
+                                data-side="0"></span>
+                            <span class="dot-indicator w-1.5 h-1.5 rounded-full bg-white/40" data-panel="2"
+                                data-side="1"></span>
+                        </div>
+
+                        <div class="hidden md:flex"
+                            style="position:absolute;top:0;bottom:0;left:50%;width:1px;background:rgba(255,255,255,0.25);z-index:1;align-items:center;justify-content:center;">
+                            <div style="width:4px;height:240px;background:#ffffff;border-radius:9999px;"></div>
+                        </div>
+
+                        <div data-panel="2" data-side="0"
+                            class="panel-side flex-1 flex flex-col items-center pt-6 md:pt-10 pb-10 px-6 md:px-16">
+                            <p class="hidden md:block"
+                                style="font-size:14px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:white;">
+                                Without PMEX</p>
+                            <div class="flex-1 flex items-center justify-center">
+                                <img src="./img/5.webp" alt=""
+                                    style="width:clamp(100px,40vw,220px);height:clamp(100px,40vw,220px);object-fit:contain;opacity:0.8">
+                            </div>
+                            <p style="font-size:15px;color:white;text-align:center;max-width:340px;line-height:1.65;">
+                                Every denial lands in the same queue. Staff manually decide what to work first, often
+                                guessing wrong.
+                            </p>
+                        </div>
+
+                        <div data-panel="2" data-side="1"
+                            class="panel-side hidden md:flex flex-1 flex-col items-center pt-6 md:pt-10 pb-10 px-6 md:px-16">
+                            <p class="hidden md:block"
+                                style="font-size:14px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:white;">
+                                With PMEX</p>
+                            <div class="flex-1 flex items-center justify-center">
+                                <img src="./img/6.webp" alt=""
+                                    style="width:clamp(100px,40vw,220px);height:clamp(100px,40vw,220px);object-fit:contain;opacity:0.9">
+                            </div>
+                            <p style="font-size:15px;color:white;text-align:center;max-width:340px;line-height:1.65;">
+                                Denials are automatically prioritized by value and win probability so your team works
+                                what matters most.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Tab 4: Payments and Reconciliation -->
+                    <div id="panel-3" class="relative flex flex-col md:flex-row rounded-3xl overflow-hidden"
+                        style="min-height: 480px; background: linear-gradient(to right, #2d6a3f 0%, #4ab84a 50%, #54C363 75%); display:none;">
+
+                        <div class="md:hidden flex justify-center gap-3 pt-6 px-4">
+                            <button onclick="showSide(3,0)" data-panel="3" data-side="0"
+                                class="side-toggle-btn side-toggle-active rounded-full px-5 py-2.5 text-xs font-bold uppercase tracking-wide">
+                                Without Camber
+                            </button>
+                            <button onclick="showSide(3,1)" data-panel="3" data-side="1"
+                                class="side-toggle-btn rounded-full px-5 py-2.5 text-xs font-bold uppercase tracking-wide">
+                                With Camber
+                            </button>
+                        </div>
+                        <div class="md:hidden flex justify-center gap-1.5 mt-3">
+                            <span class="dot-indicator w-1.5 h-1.5 rounded-full bg-white" data-panel="3"
+                                data-side="0"></span>
+                            <span class="dot-indicator w-1.5 h-1.5 rounded-full bg-white/40" data-panel="3"
+                                data-side="1"></span>
+                        </div>
+
+                        <div class="hidden md:flex"
+                            style="position:absolute;top:0;bottom:0;left:50%;width:1px;background:rgba(255,255,255,0.25);z-index:1;align-items:center;justify-content:center;">
+                            <div style="width:4px;height:240px;background:#ffffff;border-radius:9999px;"></div>
+                        </div>
+
+                        <div data-panel="3" data-side="0"
+                            class="panel-side flex-1 flex flex-col items-center pt-6 md:pt-10 pb-10 px-6 md:px-16">
+                            <p class="hidden md:block"
+                                style="font-size:14px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:white;">
+                                Without PMEX</p>
+                            <div class="flex-1 flex items-center justify-center">
+                                <img src="./img/7.webp" alt=""
+                                    style="width:clamp(100px,40vw,220px);height:clamp(100px,40vw,220px);object-fit:contain;opacity:0.8">
+                            </div>
+                            <p style="font-size:15px;color:white;text-align:center;max-width:340px;line-height:1.65;">
+                                Payments trickle in unpredictably. Reconciliation is manual and slow, leaving revenue
+                                unaccounted for weeks.
+                            </p>
+                        </div>
+
+                        <div data-panel="3" data-side="1"
+                            class="panel-side hidden md:flex flex-1 flex-col items-center pt-6 md:pt-10 pb-10 px-6 md:px-16">
+                            <p class="hidden md:block"
+                                style="font-size:14px;font-weight:700;letter-spacing:0.15em;text-transform:uppercase;color:white;">
+                                With PMEX</p>
+                            <div class="flex-1 flex items-center justify-center">
+                                <img src="./img/8.webp" alt=""
+                                    style="width:clamp(100px,40vw,220px);height:clamp(100px,40vw,220px);object-fit:contain;opacity:0.9">
+                            </div>
+                            <p style="font-size:15px;color:white;text-align:center;max-width:340px;line-height:1.65;">
+                                Every payment is matched and reconciled automatically. You always know what's been paid
+                                and what's still outstanding.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Tabs (desktop only) -->
+                <div class="hidden md:flex items-center justify-center gap-8 flex-wrap">
+                    <button onclick="switchTab(0)" id="lifecycle-tab-0"
+                        class="flex items-center gap-2 rounded-full px-5 py-2.5 shadow-sm"
+                        style="font-size:14px;font-weight:600;color:#1f2937;background:rgba(170, 211, 156, 0.15);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid rgba(170, 211, 156, 0.35);box-shadow:0 4px 12px rgba(170, 211, 156, 0.15);">
+                        <span
+                            style="width:10px;height:10px;border-radius:50%;background:radial-gradient(circle, #bde2b1 0%, #8db87e 100%);box-shadow:0 0 0 4px rgba(170, 211, 156, 0.3);display:inline-block;flex-shrink:0;"></span>
+                        Claims Lifecycle
+                    </button>
+                    <button onclick="switchTab(1)" id="lifecycle-tab-1"
+                        class="text-gray-400 hover:text-gray-600 transition-colors"
+                        style="font-size:14px;font-weight:500;">Denial Prediction</button>
+                    <button onclick="switchTab(2)" id="lifecycle-tab-2"
+                        class="text-gray-400 hover:text-gray-600 transition-colors"
+                        style="font-size:14px;font-weight:500;">Auto Triage</button>
+                    <button onclick="switchTab(3)" id="lifecycle-tab-3"
+                        class="text-gray-400 hover:text-gray-600 transition-colors"
+                        style="font-size:14px;font-weight:500;">Payments and Reconciliation</button>
+                </div>
+
+                <!-- Description & Call to Action (desktop; mobile description shown in top nav) -->
+                <div class="mt-6 md:mt-12 flex flex-col items-center text-center">
+                    <p id="tab-description" class="hidden md:block max-w-[700px] mb-8"
+                        style="font-size: 15px; color: #505050; line-height: 1.65; font-weight: 400;">
+                        Implement a revenue cycle platform that submits accurately, runs automatically, and gets smarter
+                        with every claim.
+                    </p>
+                    <a href="#"
+                        class="bg-[#AAD39C] hover:bg-[#97be8b] transition-all duration-200 text-[#464A25] px-8 py-3.5 rounded-full font-medium shadow-sm hover:shadow-md"
+                        style="font-size: 13px; text-decoration: none; display: inline-block;">
+                        See how PMEX works
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <style>
+            .side-toggle-btn {
+                background: rgba(255, 255, 255, 0.12);
+                color: rgba(255, 255, 255, 0.75);
+                border: 1px solid transparent;
+                transition: all 0.2s ease;
+            }
+
+            .side-toggle-btn.side-toggle-active {
+                background: rgba(255, 255, 255, 0.18);
+                color: #ffffff;
+                border: 1px solid #ffffff;
+            }
+        </style>
+
+        <!-- Who It's For Section -->
+        <section class="py-8 md:py-12 bg-white border-b border-[#AAD39C] pb-10 md:pb-15">
+            <div class="max-w-[1260px] mx-auto w-full px-5 sm:px-6 md:px-10">
+
+                <!-- Tag + Heading -->
+                <p class="text-xs md:text-sm text-gray-400 tracking-[0.12em] uppercase mb-2 md:mb-3 text-center">
+                    Who We Work With</p>
+                <h2
+                    class="text-2xl sm:text-3xl md:text-[38px] font-normal text-gray-700 leading-tight md:leading-[1.3] mb-5 md:mb-8 text-center">
+                    Built for every layer<br class="hidden sm:block">of modern healthcare</h2>
+
+                <!-- Mobile Tab Navigator (below md only) -->
+                <div class="md:hidden mb-5">
+                    <div class="flex items-center gap-3 bg-[#EAF4E7] rounded-2xl px-3 py-2.5">
+                        <button id="who-tab-prev" aria-label="Previous"
+                            class="shrink-0 w-8 h-8 rounded-full bg-white flex items-center justify-center text-gray-600">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M15 18l-6-6 6-6" />
+                            </svg>
+                        </button>
+                        <div class="flex-1 flex items-center justify-between min-w-0">
+                            <p id="who-mobile-title"
+                                class="text-[11px] font-semibold text-gray-700 tracking-widest uppercase truncate pr-2">
+                                Growing Clinics</p>
+                            <span id="who-mobile-counter" class="text-xs text-gray-500 shrink-0">1/3</span>
+                        </div>
+                        <button id="who-tab-next" aria-label="Next"
+                            class="shrink-0 w-8 h-8 rounded-full bg-white flex items-center justify-center text-gray-600">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M9 18l6-6-6-6" />
+                            </svg>
+                        </button>
+                    </div>
+                    <p id="who-mobile-description" class="text-gray-600 text-sm leading-relaxed mt-4 text-center px-2">
+                        Growing clinics hit a billing ceiling when revenue cycle relies on people. PMEX scales with your
+                        caseload without adding headcount.
+                    </p>
+                </div>
+
+                <!-- Panel 0: Growing Clinics -->
+                <div id="who-panel-0">
+                    <div
+                        class="relative rounded-2xl md:rounded-3xl overflow-hidden bg-[#1d6034] md:bg-transparent md:h-[420px]">
+                        <img src="./img/fir.webp" alt=""
+                            class="hidden md:block absolute inset-0 w-full h-full object-cover">
+                        <div class="hidden md:block absolute inset-0" style="background:rgba(0,0,0,0.25);"></div>
+                        <div
+                            class="relative z-10 flex items-center justify-center gap-3 md:gap-6 px-4 md:px-12 py-8 md:py-16 md:h-full md:min-h-[420px]">
+                            <div class="flex flex-col items-center gap-2 md:gap-4 flex-1 min-w-0">
+                                <div class="flex items-center justify-center rounded-2xl p-3 md:p-6 w-[clamp(56px,11.1vw,140px)] h-[clamp(56px,11.1vw,140px)]"
+                                    style="background:rgba(255,255,255,0.2);backdrop-filter:blur(8px);">
+                                    <img src="./img/9.webp" alt="" class="w-full h-full object-contain">
+                                </div>
+                                <p
+                                    class="text-xs md:text-[15px] font-semibold text-white text-center leading-tight md:leading-[1.4]">
+                                    Faster, more<br>reliable payment</p>
+                            </div>
+                            <div class="flex flex-col items-center gap-2 md:gap-4 flex-1 min-w-0">
+                                <div class="flex items-center justify-center rounded-2xl p-3 md:p-6 w-[clamp(56px,11.1vw,140px)] h-[clamp(56px,11.1vw,140px)]"
+                                    style="background:rgba(255,255,255,0.2);backdrop-filter:blur(8px);">
+                                    <img src="./img/10.webp" alt="" class="w-full h-full object-contain">
+                                </div>
+                                <p
+                                    class="text-xs md:text-[20px] font-semibold text-white text-center leading-tight md:leading-[1.4]">
+                                    Minimal owner<br>and staff effort</p>
+                            </div>
+                            <div class="flex flex-col items-center gap-2 md:gap-4 flex-1 min-w-0">
+                                <div class="flex items-center justify-center rounded-2xl p-3 md:p-6 w-[clamp(56px,11.1vw,140px)] h-[clamp(56px,11.1vw,140px)]"
+                                    style="background:rgba(255,255,255,0.2);backdrop-filter:blur(8px);">
+                                    <img src="./img/11.webp" alt="" class="w-full h-full object-contain">
+                                </div>
+                                <p
+                                    class="text-xs md:text-[20px] font-semibold text-white text-center leading-tight md:leading-[1.4]">
+                                    Clear financial<br>control</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tabs (desktop only) -->
+                    <div class="hidden md:flex items-center justify-center gap-8 flex-wrap my-6">
+                        <button onclick="switchWhoTab(0)" id="who-tab-0"
+                            class="flex items-center gap-2 bg-white border border-gray-200 rounded-full px-4 py-2 shadow-sm"
+                            style="font-size:14px;font-weight:600;color:#374151;">
+                            <span
+                                style="width:10px;height:10px;border-radius:50%;background:#AAD39C;box-shadow:0 0 0 3px #e6f4e1;display:inline-block;flex-shrink:0;"></span>
+                            Growing Clinics
+                        </button>
+                        <button onclick="switchWhoTab(1)" class="text-gray-400 hover:text-gray-600 transition-colors"
+                            style="font-size:14px;font-weight:500;">Large Group Platforms</button>
+                        <button onclick="switchWhoTab(2)" class="text-gray-400 hover:text-gray-600 transition-colors"
+                            style="font-size:14px;font-weight:500;">Growth Partners</button>
+                    </div>
+
+                    <div class="text-center mt-6 md:mt-0">
+                        <p class="hidden md:block text-[15px] text-gray-500 max-w-[480px] mx-auto mb-6 leading-relaxed">
+                            Growing clinics hit a billing ceiling when revenue cycle relies on people. PMEX scales
+                            with your caseload without adding headcount.</p>
+                        <button
+                            class="bg-[#AAD39C] text-[#2e4a25] text-sm font-medium px-6 md:px-7 py-2.5 rounded-full border-none cursor-pointer w-auto mx-auto">
+                            Learn more</button>
+                    </div>
+                </div>
+
+                <!-- Panel 1: Large Group Platforms -->
+                <div id="who-panel-1" style="display:none;">
+                    <div
+                        class="relative rounded-2xl md:rounded-3xl overflow-hidden bg-[#1d6034] md:bg-transparent md:h-[420px]">
+                        <img src="./img/sec.webp" alt=""
+                            class="hidden md:block absolute inset-0 w-full h-full object-cover">
+                        <div class="hidden md:block absolute inset-0" style="background:rgba(0,0,0,0.25);"></div>
+                        <div
+                            class="relative z-10 flex items-center justify-center gap-3 md:gap-6 px-4 md:px-12 py-8 md:py-16 md:h-full md:min-h-[420px]">
+                            <div class="flex flex-col items-center gap-2 md:gap-4 flex-1 min-w-0">
+                                <div class="flex items-center justify-center rounded-2xl p-3 md:p-6 w-[clamp(56px,11.1vw,140px)] h-[clamp(56px,11.1vw,140px)]"
+                                    style="background:rgba(255,255,255,0.2);backdrop-filter:blur(8px);">
+                                    <img src="./img/12.webp" alt="" class="w-full h-full object-contain">
+                                </div>
+                                <p
+                                    class="text-xs md:text-[20px] font-semibold text-white text-center leading-tight md:leading-[1.4]">
+                                    Consistent billing<br>across locations</p>
+                            </div>
+                            <div class="flex flex-col items-center gap-2 md:gap-4 flex-1 min-w-0">
+                                <div class="flex items-center justify-center rounded-2xl p-3 md:p-6 w-[clamp(56px,11.1vw,140px)] h-[clamp(56px,11.1vw,140px)]"
+                                    style="background:rgba(255,255,255,0.2);backdrop-filter:blur(8px);">
+                                    <img src="./img/13.webp" alt="" class="w-full h-full object-contain">
+                                </div>
+                                <p
+                                    class="text-xs md:text-[20px] font-semibold text-white text-center leading-tight md:leading-[1.4]">
+                                    Centralized<br>oversight</p>
+                            </div>
+                            <div class="flex flex-col items-center gap-2 md:gap-4 flex-1 min-w-0">
+                                <div class="flex items-center justify-center rounded-2xl p-3 md:p-6 w-[clamp(56px,11.1vw,140px)] h-[clamp(56px,11.1vw,140px)]"
+                                    style="background:rgba(255,255,255,0.2);backdrop-filter:blur(8px);">
+                                    <img src="./img/14.svg" alt="" class="w-full h-full object-contain opacity-90">
+                                </div>
+                                <p
+                                    class="text-xs md:text-[20px] font-semibold text-white text-center leading-tight md:leading-[1.4]">
+                                    Scalable without<br>added complexity</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tabs (desktop only) -->
+                    <div class="hidden md:flex items-center justify-center gap-8 flex-wrap my-6">
+                        <button onclick="switchWhoTab(0)"
+                            class="flex items-center gap-2 text-gray-400 hover:text-gray-600 transition-colors"
+                            style="font-size:14px;font-weight:500;">Growing Clinics</button>
+                        <button onclick="switchWhoTab(1)"
+                            class="flex items-center gap-2 bg-white border border-gray-200 rounded-full px-4 py-2 shadow-sm"
+                            style="font-size:14px;font-weight:600;color:#374151;">
+                            <span
+                                style="width:10px;height:10px;border-radius:50%;background:#AAD39C;box-shadow:0 0 0 3px #e6f4e1;display:inline-block;flex-shrink:0;"></span>
+                            Large Group Platforms
+                        </button>
+                        <button onclick="switchWhoTab(2)" class="text-gray-400 hover:text-gray-600 transition-colors"
+                            style="font-size:14px;font-weight:500;">Growth Partners</button>
+                    </div>
+
+                    <div class="text-center mt-6 md:mt-0">
+                        <p class="hidden md:block text-[15px] text-gray-500 max-w-[480px] mx-auto mb-6 leading-relaxed">
+                            Large group platforms need consistency across every location. PMEX standardizes your
+                            revenue cycle so performance doesn't vary by site.</p>
+                        <button
+                            class="bg-[#AAD39C] text-[#2e4a25] text-sm font-medium px-6 md:px-7 py-2.5 rounded-full border-none cursor-pointer w-auto mx-auto">
+                            Learn more</button>
+                    </div>
+                </div>
+
+                <!-- Panel 2: Growth Partners -->
+                <div id="who-panel-2" style="display:none;">
+                    <div
+                        class="relative rounded-2xl md:rounded-3xl overflow-hidden bg-[#1d6034] md:bg-transparent md:h-[420px]">
+                        <img src="./img/fir.webp" alt=""
+                            class="hidden md:block absolute inset-0 w-full h-full object-cover">
+                        <div class="hidden md:block absolute inset-0" style="background:rgba(0,0,0,0.25);"></div>
+                        <div
+                            class="relative z-10 flex items-center justify-center gap-3 md:gap-6 px-4 md:px-12 py-8 md:py-16 md:h-full md:min-h-[420px]">
+                            <div class="flex flex-col items-center gap-2 md:gap-4 flex-1 min-w-0">
+                                <div class="flex items-center justify-center rounded-2xl p-3 md:p-6 w-[clamp(56px,11.1vw,140px)] h-[clamp(56px,11.1vw,140px)]"
+                                    style="background:rgba(255,255,255,0.2);backdrop-filter:blur(8px);">
+                                    <img src="./img/15.webp" alt="" class="w-full h-full object-contain">
+                                </div>
+                                <p
+                                    class="text-xs md:text-[20px] font-semibold text-white text-center leading-tight md:leading-[1.4]">
+                                    Portfolio-wide<br>visibility</p>
+                            </div>
+                            <div class="flex flex-col items-center gap-2 md:gap-4 flex-1 min-w-0">
+                                <div class="flex items-center justify-center rounded-2xl p-3 md:p-6 w-[clamp(56px,11.1vw,140px)] h-[clamp(56px,11.1vw,140px)]"
+                                    style="background:rgba(255,255,255,0.2);backdrop-filter:blur(8px);">
+                                    <img src="./img/16.webp" alt="" class="w-full h-full object-contain">
+                                </div>
+                                <p
+                                    class="text-xs md:text-[20px] font-semibold text-white text-center leading-tight md:leading-[1.4]">
+                                    Revenue that scales<br>with growth</p>
+                            </div>
+                            <div class="flex flex-col items-center gap-2 md:gap-4 flex-1 min-w-0">
+                                <div class="flex items-center justify-center rounded-2xl p-3 md:p-6 w-[clamp(56px,11.1vw,140px)] h-[clamp(56px,11.1vw,140px)]"
+                                    style="background:rgba(255,255,255,0.2);backdrop-filter:blur(8px);">
+                                    <img src="./img/17.webp" alt="" class="w-full h-full object-contain">
+                                </div>
+                                <p
+                                    class="text-xs md:text-[20px] font-semibold text-white text-center leading-tight md:leading-[1.4]">
+                                    Control across<br>every practice</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tabs (desktop only) -->
+                    <div class="hidden md:flex items-center justify-center gap-8 flex-wrap my-6">
+                        <button onclick="switchWhoTab(0)" class="text-gray-400 hover:text-gray-600 transition-colors"
+                            style="font-size:14px;font-weight:500;">Growing Clinics</button>
+                        <button onclick="switchWhoTab(1)" class="text-gray-400 hover:text-gray-600 transition-colors"
+                            style="font-size:14px;font-weight:500;">Large Group Platforms</button>
+                        <button onclick="switchWhoTab(2)"
+                            class="flex items-center gap-2 bg-white border border-gray-200 rounded-full px-4 py-2 shadow-sm"
+                            style="font-size:14px;font-weight:600;color:#374151;">
+                            <span
+                                style="width:10px;height:10px;border-radius:50%;background:#AAD39C;box-shadow:0 0 0 3px #e6f4e1;display:inline-block;flex-shrink:0;"></span>
+                            Growth Partners
+                        </button>
+                    </div>
+
+                    <div class="text-center mt-6 md:mt-0">
+                        <p class="hidden md:block text-[15px] text-gray-500 max-w-[480px] mx-auto mb-6 leading-relaxed">
+                            Growth partners need a revenue platform that scales with their portfolio. PMEX gives you
+                            visibility and control across every practice you support.</p>
+                        <button
+                            class="bg-[#AAD39C] text-[#2e4a25] text-sm font-medium px-6 md:px-7 py-2.5 rounded-full border-none cursor-pointer w-auto mx-auto">
+                            Learn more</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Outcomes For Clinics -->
+        <section class="py-10 md:py-16 bg-white border-b border-[#AAD39C]">
+            <div class="max-w-[1260px] mx-auto w-full px-5 sm:px-6 md:px-10">
+
+                <!-- Tag + Heading -->
+                <p
+                    class="text-xs md:text-[14px] text-[#676767] font-medium tracking-[1px] uppercase mb-2 md:mb-3 text-center">
+                    Outcomes For Clinics</p>
+                <h2
+                    class="text-2xl sm:text-3xl md:text-[38px] font-normal text-[#505050] leading-tight md:leading-[1.3] mb-6 md:mb-6 lg:mb-10 text-center">
+                    Revenue infrastructure trusted by<br class="hidden sm:block">specialty care leaders</h2>
+
+                <!-- Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-[2fr_0.90fr] gap-4 mb-4">
+
+                    <!-- Big left card -->
+                    <div class="rounded-2xl p-6 md:p-13 flex flex-col justify-between"
+                        style="background:#F8FBF0; min-height:auto;">
+                        <div>
+                            <span
+                                style="background:#2A3828;color:#C6CAC5;font-size:11px;font-weight:600;letter-spacing:0.5px;text-transform:uppercase;padding:4px 12px;border-radius:9999px;display:inline-block;margin-bottom:1.25rem;">Business
+                                Impact</span>
+                            <p
+                                class="text-2xl sm:text-3xl md:text-[45px] font-normal text-[#505050] leading-[1.2] mb-2 md:mb-3">
+                                &gt;$4M in EBITDA impact, FY25</p>
+                            <p class="text-sm md:text-[15px] text-[#959085]">For a PE-backed behavioural health platform
+                            </p>
+                        </div>
+                        <div class="flex justify-start md:justify-end mt-6">
+                            <button
+                                class="bg-[#AAD39C] text-[#2E4A25] text-sm font-medium px-6 py-3 rounded-full border-none cursor-pointer w-full md:w-auto">Learn
+                                more</button>
+                        </div>
+                    </div>
+
+                    <!-- Right stat card -->
+                    <div
+                        class="rounded-2xl p-6 md:p-8 flex flex-col justify-end items-start bg-gradient-to-br from-[#EDEFE7] via-[#e8eaed] to-[#d8dce3] min-h-[160px] md:min-h-[220px]">
+                        <p class="text-5xl md:text-[77px] font-normal text-[#959085] leading-none">$2.5bn</p>
+                        <p class="text-base md:text-[22px] text-[#676767] mt-2">worth of claims covered</p>
+                    </div>
+
+                </div>
+
+                <!-- Bottom row -->
+                <div class="grid grid-cols-1 md:grid-cols-[0.80fr_2fr] gap-4">
+
+                    <!-- Left stat card -->
+                    <div
+                        class="rounded-2xl bg-gradient-to-br from-[#EDEFE7] via-[#e8eaed] to-[#d8dce3] p-6 md:p-8 flex flex-col justify-center min-h-[140px] md:min-h-[180px]">
+                        <p class="text-5xl md:text-[77px] font-normal text-[#959085] leading-none">+12.3%</p>
+                        <p class="text-base md:text-[22px] text-[#676767] mt-2">YoY improvement in First<br>Pass Paid
+                            Rate</p>
+                    </div>
+
+                    <!-- Right quote card -->
+                    <div class="rounded-2xl p-6 md:p-8 flex flex-col justify-between bg-[#F8FBF0] min-h-[180px]">
+                        <div>
+                            <p class="text-xl md:text-[30px] font-bold text-[#686868] mb-3 md:mb-4">intercare</p>
+                            <p
+                                class="text-sm md:text-[18px] text-[#676767] leading-relaxed md:leading-[1.7] mb-4 md:mb-6">
+                                "We know what the problem is, and
+                                how to solve it. We used to put a lot of legwork into figuring out why claims were
+                                getting denied before we even got to figure out how to solve it."</p>
+                        </div>
+                        <div class="flex flex-col md:flex-row md:items-end justify-between gap-3">
+                            <div>
+                                <p class="text-sm md:text-[15px] font-semibold text-[#3f9a20]">Tammy Pedersen</p>
+                                <p class="text-[10px] md:text-[11px] text-[#3f9a20]">Senior Director of Managed Care and
+                                    Billing at
+                                    Intercare</p>
+                            </div>
+                            <button
+                                class="bg-gradient-to-br from-[#B6D6AB] to-[#9ED08D] text-[#3A5A2A] text-xs md:text-[13px] font-medium px-6 py-2 rounded-full border-none cursor-pointer w-full md:w-auto">Read
+                                case study</button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="max-w-[1260px] mx-auto w-full px-5 sm:px-6 md:px-10 mt-10 md:mt-15">
+
+                <!-- Tag + Heading row -->
+                <div class="flex flex-row items-end justify-between gap-4 mb-6 md:mb-8">
+                    <div>
+                        <p class="text-xs md:text-[14px] font-medium text-[#676767] tracking-[0.12em] uppercase mb-2">
+                            Customer
+                            Stories</p>
+                        <h2 class="text-2xl md:text-[32px] font-normal text-[#505050]">Proven in clinics and boardrooms
+                        </h2>
+                    </div>
+                    <!-- Arrows -->
+                    <div class="flex items-center gap-2">
+                        <button onclick="scrollStories(-1)"
+                            class="w-9 h-9 rounded-full border border-gray-300 bg-white cursor-pointer flex items-center justify-center shrink-0">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#374151"
+                                stroke-width="2">
+                                <polyline points="15 18 9 12 15 6" />
+                            </svg>
+                        </button>
+                        <button onclick="scrollStories(1)"
+                            class="w-9 h-9 rounded-full border border-gray-300 bg-white cursor-pointer flex items-center justify-center shrink-0">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#374151"
+                                stroke-width="2">
+                                <polyline points="9 18 15 12 9 6" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Cards -->
+                <div id="stories-track" class="flex gap-4 overflow-x-auto scroll-smooth" style="scrollbar-width:none;">
+
+                    <!-- Card 1 -->
+                    <div class="flex-shrink-0 w-[260px] md:w-[320px]">
+                        <div class="rounded-2xl overflow-hidden relative mb-4 h-[340px] md:h-[440px]">
+                            <img src="./img/1img.webp" alt="" class="absolute inset-0 w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-black/15"></div>
+                        </div>
+                        <p class="text-sm md:text-[14px] text-[#2a3828] leading-relaxed md:leading-[1.6] mb-3">How a
+                            multi-state ABA clinic fixed its
+                            billing struggles by replacing its RCM vendor with problem solvers</p>
+                        <a href="#" class="text-xs md:text-[13px] text-[#3f9a20] font-medium">Read the case study
+                            &gt;</a>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="flex-shrink-0 w-[260px] md:w-[320px]">
+                        <div class="rounded-2xl overflow-hidden relative mb-4 h-[340px] md:h-[440px]">
+                            <img src="./img/2img.webp" alt="" class="absolute inset-0 w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-black/15"></div>
+                        </div>
+                        <p class="text-sm md:text-[14px] text-[#2a3828] leading-relaxed md:leading-[1.6] mb-3">How
+                            PMEX's technology-enabled service
+                            helped a multi-disciplinary clinic scale by 60% in two years</p>
+                        <a href="#" class="text-xs md:text-[13px] text-[#3f9a20] font-medium">Read the case study
+                            &gt;</a>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="flex-shrink-0 w-[260px] md:w-[320px]">
+                        <div class="rounded-2xl overflow-hidden relative mb-4 h-[340px] md:h-[440px]">
+                            <img src="./img/3img.png" alt="" class="absolute inset-0 w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-black/15"></div>
+                        </div>
+                        <p class="text-sm md:text-[14px] text-[#2a3828] leading-relaxed md:leading-[1.6] mb-3">How a
+                            bootstrapped ABA clinic
+                            transformed its billing operations and stabilized growth with PMEX</p>
+                        <a href="#" class="text-xs md:text-[13px] text-[#3f9a20] font-medium">Read the case study
+                            &gt;</a>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="flex-shrink-0 w-[260px] md:w-[320px]">
+                        <div class="rounded-2xl overflow-hidden relative mb-4 h-[340px] md:h-[440px]">
+                            <img src="./img/4img.png" alt="" class="absolute inset-0 w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-black/15"></div>
+                        </div>
+                        <p class="text-sm md:text-[14px] text-[#2a3828] leading-relaxed md:leading-[1.6] mb-3">How a
+                            multi-state ABA provider improved
+                            first pass paid rate by 15% with PMEX</p>
+                        <a href="#" class="text-xs md:text-[13px] text-[#3f9a20] font-medium">Read the case study
+                            &gt;</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===== Our Mission ===== -->
+        <section class="py-14 md:py-24 bg-white text-center">
+            <div class="max-w-[1260px] mx-auto w-full px-5 sm:px-6 md:px-10">
+
+                <p class="text-xs md:text-[14px] text-[#676767] font-medium tracking-[0.12em] uppercase mb-3 md:mb-4">
+                    Our Mission</p>
+                <h2
+                    class="text-2xl sm:text-3xl md:text-[44px] font-normal text-[#505050] leading-tight md:leading-[1.2] mb-4 md:mb-6">
+                    Reclaim your clinic's workday</h2>
+                <p
+                    class="text-sm md:text-[16px] text-[#676767] font-medium leading-relaxed md:leading-[1.7] max-w-[520px] mx-auto mb-8 md:mb-6 lg:mb-10">
+                    Healthcare providers should not lose revenue because infrastructure failed to evolve. PMEX exists
+                    to rebuild the systems modern healthcare depends on.
+                </p>
+
+                <div class="flex items-center justify-center gap-4 sm:gap-6">
+                    <a href="demo.html"
+                        class="bg-[#AAD39C] text-[#2E4A25] text-sm md:text-[14px] font-medium px-6 md:px-8 py-2.5 rounded-full whitespace-nowrap">Book
+                        a demo</a>
+                    <a href="#" class="text-[#3F9A4B] text-sm md:text-[14px] font-medium whitespace-nowrap">Find out
+                        more â†’</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===== Trusted by leading organizations ===== -->
+        <div class="border-t border-b border-[#AAD39C] bg-[#EEF0E8] py-6">
+            <div class="marquee-container">
+                <div class="flex animate-marquee whitespace-nowrap">
+                    <div class="flex items-center gap-16 shrink-0 pr-16">
+                        <img src="./img/marquee logo/advancedmd.svg" alt="AdvancedMD"
+                            class="h-6 sm:h-7 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Allscripts.svg" alt="Allscripts"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/athenahealth.svg" alt="athenahealth"
+                            class="h-5 sm:h-6 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Cerner.svg" alt="Cerner"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/ChiroTouch.svg" alt="ChiroTouch"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/dentrix-logo-1400.svg" alt="Dentrix"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/DrChrono.svg" alt="DrChrono"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/eclinicalworks.svg" alt="eClinicalWorks"
+                            class="h-5 sm:h-6 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/ECLIPSE.svg" alt="ECLIPSE"
+                            class="h-7 sm:h-8 max-w-[140px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/epic.svg" alt="Epic"
+                            class="h-5 sm:h-6 max-w-[100px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Genesis-Chiropractic-Software-Logo.svg" alt="Genesis Chiropractic"
+                            class="h-7 sm:h-8 max-w-[150px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Jane.svg" alt="Jane App"
+                            class="h-7 sm:h-8 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Jopari.svg" alt="Jopari"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Kareo.svg" alt="Kareo"
+                            class="h-6 sm:h-7 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/modmed.svg" alt="ModMed"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/NexGen.svg" alt="NextGen"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/office-ally.svg" alt="Office Ally"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/optum.svg" alt="Optum"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Practice-Fusion.svg" alt="Practice Fusion"
+                            class="h-6 sm:h-7 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/tebra.svg" alt="Tebra"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                    </div>
+                    <div class="flex items-center gap-16 shrink-0 pr-16" aria-hidden="true">
+                        <img src="./img/marquee logo/advancedmd.svg" alt="AdvancedMD"
+                            class="h-6 sm:h-7 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Allscripts.svg" alt="Allscripts"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/athenahealth.svg" alt="athenahealth"
+                            class="h-5 sm:h-6 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Cerner.svg" alt="Cerner"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/ChiroTouch.svg" alt="ChiroTouch"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/dentrix-logo-1400.svg" alt="Dentrix"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/DrChrono.svg" alt="DrChrono"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/eclinicalworks.svg" alt="eClinicalWorks"
+                            class="h-5 sm:h-6 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/ECLIPSE.svg" alt="ECLIPSE"
+                            class="h-7 sm:h-8 max-w-[140px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/epic.svg" alt="Epic"
+                            class="h-5 sm:h-6 max-w-[100px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Genesis-Chiropractic-Software-Logo.svg" alt="Genesis Chiropractic"
+                            class="h-7 sm:h-8 max-w-[150px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Jane.svg" alt="Jane App"
+                            class="h-7 sm:h-8 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Jopari.svg" alt="Jopari"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Kareo.svg" alt="Kareo"
+                            class="h-6 sm:h-7 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/modmed.svg" alt="ModMed"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/NexGen.svg" alt="NextGen"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/office-ally.svg" alt="Office Ally"
+                            class="h-5 sm:h-6 max-w-[120px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/optum.svg" alt="Optum"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/Practice-Fusion.svg" alt="Practice Fusion"
+                            class="h-6 sm:h-7 max-w-[130px] w-auto object-contain shrink-0" />
+                        <img src="./img/marquee logo/tebra.svg" alt="Tebra"
+                            class="h-5 sm:h-6 max-w-[110px] w-auto object-contain shrink-0" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ===== FOOTER ===== -->
+        <footer class="pt-10 lg:pt-10 lg:pt-15 pb-10 bg-[#EEF0E8]">
+            <div class="max-w-[1260px] mx-auto px-5 sm:px-6 lg:px-10">
+                <div class="grid grid-cols-1 lg:grid-cols-[200px_1fr] gap-10 lg:gap-15 mb-10 lg:mb-15">
+                    <div>
+                        <a href="index.html" class="block mb-2 lg:pt-8"><img src="./img/logo/logo.png" alt="PMEX Logo"
+                                class="h-[60px] sm:h-[80px] lg:h-[100px] w-auto"></a>
+                        <p class="text-[#676767] text-[13px] leading-relaxed max-w-[300px]">Healthcare revenue
+                            infrastructure,
+                            rebuilt from first principles.</p>
+                    </div>
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 lg:gap-15">
+                        <!-- Services -->
+                        <div class="flex flex-col gap-3">
+                            <p class="text-[#505050] font-semibold text-[13px] border-b border-[#AAD39C] pb-2">
+                                Services</p>
+                            <a href="medical-billing-services.html"
+                                class="text-gray-500 text-[13px] hover:text-gray-800">Medical Billing Services</a>
+                            <a href="revenue-cycle-management.html"
+                                class="text-gray-500 text-[13px] hover:text-gray-800">Revenue Cycle Management</a>
+                            <a href="denial-management-services.html"
+                                class="text-gray-500 text-[13px] hover:text-gray-800">Denial Management Services</a>
+                            <a href="hospital-billing-services.html"
+                                class="text-gray-500 text-[13px] hover:text-gray-800">Hospital Billing Services</a>
+                            <a href="dme-pos-services.html"
+                                class="text-gray-500 text-[13px] hover:text-gray-800">DME/POS Services</a>
+                            <a href="physician-billing-services.html"
+                                class="text-gray-500 text-[13px] hover:text-gray-800">Physician Billing Services</a>
+                            <a href="mental-health-billing.html"
+                                class="text-gray-500 text-[13px] hover:text-gray-800">Mental Health Billing</a>
+                            <a href="cpap-billing.html" class="text-gray-500 text-[13px] hover:text-gray-800">CPAP
+                                Billing</a>
+                        </div>
+
+                        <!-- Our Specialties -->
+                        <div class="flex flex-col gap-3">
+                            <p class="text-[#505050] font-semibold text-[13px] border-b border-[#AAD39C] pb-2">
+                                Our Specialties</p>
+                            <a href="physical-therapy.html"
+                                class="text-gray-500 text-[13px] hover:text-gray-800">Physical Therapy</a>
+                            <a href="psychiatry.html"
+                                class="text-gray-500 text-[13px] hover:text-gray-800">Psychiatry</a>
+                            <a href="internal-medicine.html"
+                                class="text-gray-500 text-[13px] hover:text-gray-800">Internal Medicine</a>
+                            <a href="chiropractic.html"
+                                class="text-gray-500 text-[13px] hover:text-gray-800">Chiropractic</a>
+                            <a href="dental-billing.html" class="text-gray-500 text-[13px] hover:text-gray-800">Dental
+                                Billing</a>
+                            <a href="nephrology.html"
+                                class="text-gray-500 text-[13px] hover:text-gray-800">Nephrology</a>
+                            <a href="cardiology.html"
+                                class="text-gray-500 text-[13px] hover:text-gray-800">Cardiology</a>
+                            <a href="gynecology.html"
+                                class="text-gray-500 text-[13px] hover:text-gray-800">Gynecology</a>
+                        </div>
+
+                        <!-- Resources (Company nested here, visible only at sm+) -->
+                        <div class="flex flex-col gap-3">
+                            <p class="text-[#505050] font-semibold text-[13px] border-b border-[#AAD39C] pb-2">
+                                Resources</p>
+                            <a href="resources.html" class="text-gray-500 text-[13px] hover:text-gray-800">Insights</a>
+                            <a href="customers.html" class="text-gray-500 text-[13px] hover:text-gray-800">Customer
+                                Stories</a>
+                            <a href="resources.html" class="text-gray-500 text-[13px] hover:text-gray-800">Tools</a>
+
+                            <div class="hidden sm:flex sm:flex-col gap-3 mt-4">
+                                <p class="text-[#505050] font-semibold text-[13px] border-b border-[#AAD39C] pb-2">
+                                    Company</p>
+                                <a href="#" class="text-gray-500 text-[13px] hover:text-gray-800">About</a>
+                                <a href="#" class="text-gray-500 text-[13px] hover:text-gray-800">News and Press</a>
+                                <a href="mailto:info@pmexinc.com"
+                                    class="text-gray-500 text-[13px] hover:text-gray-800">Contact</a>
+                            </div>
+                        </div>
+
+                        <!-- Company (mobile-only, hidden at sm+) -->
+                        <div class="flex flex-col gap-3 sm:hidden">
+                            <p class="text-[#505050] font-semibold text-[13px] border-b border-[#AAD39C] pb-2">
+                                Company</p>
+                            <a href="#" class="text-gray-500 text-[13px] hover:text-gray-800">About</a>
+                            <a href="#" class="text-gray-500 text-[13px] hover:text-gray-800">News and Press</a>
+                            <a href="mailto:info@pmexinc.com"
+                                class="text-gray-500 text-[13px] hover:text-gray-800">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="border-t border-[#AAD39C] pt-6 flex flex-col sm:flex-row gap-6 sm:gap-4 justify-between items-center">
+                    <p class="text-[#676767] text-[12px] order-3 sm:order-1">Â© 2026 PMEX. All rights reserved.</p>
+
+                    <div class="flex items-center gap-5 order-1 sm:order-2">
+                        <a href="#" aria-label="LinkedIn"
+                            class="inline-flex items-center text-[#676767] hover:text-[#7fb35c] transition">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram"
+                            class="inline-flex items-center text-[#676767] hover:text-[#7fb35c] transition">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.148 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.98-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.198-4.354-2.618-6.78-6.98-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Facebook"
+                            class="inline-flex items-center text-[#676767] hover:text-[#7fb35c] transition">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.891h-2.33v6.987C18.343 21.128 22 16.991 22 12z" />
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="YouTube"
+                            class="inline-flex items-center text-[#676767] hover:text-[#7fb35c] transition">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="flex gap-6 order-2 sm:order-3">
+                        <a href="#" class="text-[#676767] text-[12px] hover:text-gray-600">Privacy Policy</a>
+                        <a href="#" class="text-[#676767] text-[12px] hover:text-gray-600">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>

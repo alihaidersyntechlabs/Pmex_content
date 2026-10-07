@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" height="100%" overflow="visible" preserveAspectRatio="none" style="display: block;" viewBox="0 0 180 180" width="100%">
+<g id="Shapes">
+<path d="M60 0H180V120H60V0Z" fill="var(--fill-0, white)" fill-opacity="0.25" id="Rectangle 32"></path>
+<path d="M119.5 60.5V179.5H0.5V60.5H119.5Z" id="Rectangle 33" stroke="var(--stroke-0, white)"></path>
+<path d="M89.5 90.5V149.5H30.5V90.5H89.5Z" id="Rectangle 34" stroke="var(--stroke-0, white)"></path>
+</g>
+</svg>
